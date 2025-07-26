@@ -1,0 +1,9 @@
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common/CMakeFiles/uninstall.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common/CMakeFiles/robotnik_common_uninstall.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common/CMakeFiles/ament_cmake_python_copy_robotnik_common.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common/CMakeFiles/ament_cmake_python_build_robotnik_common_egg.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common/CMakeFiles/edit_cache.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common/CMakeFiles/rebuild_cache.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common/CMakeFiles/list_install_components.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common/CMakeFiles/install.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common/CMakeFiles/install/local.dir

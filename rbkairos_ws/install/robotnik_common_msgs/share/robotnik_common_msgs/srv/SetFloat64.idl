@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robotnik_common_msgs/srv/SetFloat64.srv
+// generated code does not contain a copyright notice
+
+#include "robotnik_common_msgs/msg/Response.idl"
+
+module robotnik_common_msgs {
+  module srv {
+    struct SetFloat64_Request {
+      double data;
+    };
+    struct SetFloat64_Response {
+      robotnik_common_msgs::msg::Response response;
+    };
+  };
+};

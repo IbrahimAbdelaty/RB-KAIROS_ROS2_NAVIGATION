@@ -1,0 +1,244 @@
+[0.061s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs -- -j16 -l16
+[0.278s] [  1%] Built target robotnik_battery_msgs__cpp
+[0.307s] [ 12%] Built target robotnik_battery_msgs__rosidl_generator_c
+[0.308s] [ 12%] Built target ament_cmake_python_copy_robotnik_battery_msgs
+[0.308s] [ 23%] Built target robotnik_battery_msgs__rosidl_typesupport_cpp
+[0.308s] [ 35%] Built target robotnik_battery_msgs__rosidl_typesupport_fastrtps_cpp
+[0.309s] [ 46%] Built target robotnik_battery_msgs__rosidl_typesupport_fastrtps_c
+[0.309s] [ 57%] Built target robotnik_battery_msgs__rosidl_typesupport_introspection_cpp
+[0.309s] [ 69%] Built target robotnik_battery_msgs__rosidl_typesupport_introspection_c
+[0.309s] [ 80%] Built target robotnik_battery_msgs__rosidl_typesupport_c
+[0.311s] [ 80%] Built target robotnik_battery_msgs
+[0.348s] [ 81%] Built target robotnik_battery_msgs__py
+[0.395s] [ 91%] Built target robotnik_battery_msgs__rosidl_generator_py
+[0.439s] [ 94%] Built target robotnik_battery_msgs__rosidl_typesupport_introspection_c__pyext
+[0.459s] [ 97%] Built target robotnik_battery_msgs__rosidl_typesupport_c__pyext
+[0.464s] [100%] Built target robotnik_battery_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.662s] running egg_info
+[0.664s] writing robotnik_battery_msgs.egg-info/PKG-INFO
+[0.664s] writing dependency_links to robotnik_battery_msgs.egg-info/dependency_links.txt
+[0.665s] writing top-level names to robotnik_battery_msgs.egg-info/top_level.txt
+[0.669s] reading manifest file 'robotnik_battery_msgs.egg-info/SOURCES.txt'
+[0.669s] writing manifest file 'robotnik_battery_msgs.egg-info/SOURCES.txt'
+[0.712s] [100%] Built target ament_cmake_python_build_robotnik_battery_msgs_egg
+[0.742s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs -- -j16 -l16
+[0.746s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs
+[0.772s] -- Install configuration: ""
+[0.772s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/ament_index/resource_index/rosidl_interfaces/robotnik_battery_msgs
+[0.772s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs
+[0.772s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg
+[0.773s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/battery_status_stamped.h
+[0.773s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/docking_station_status_stamped.h
+[0.773s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/docking_station_status.h
+[0.773s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail
+[0.773s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__functions.c
+[0.773s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__type_support.h
+[0.773s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__type_support.h
+[0.773s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__functions.h
+[0.773s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__functions.c
+[0.773s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__struct.h
+[0.774s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__struct.h
+[0.774s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__functions.h
+[0.774s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__functions.c
+[0.774s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__functions.c
+[0.774s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__functions.c
+[0.774s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__type_support.h
+[0.774s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__struct.h
+[0.774s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__functions.h
+[0.774s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__type_support.h
+[0.774s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__struct.h
+[0.775s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__functions.h
+[0.775s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__struct.h
+[0.775s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__functions.h
+[0.775s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__struct.h
+[0.775s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__functions.c
+[0.775s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__functions.h
+[0.775s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__type_support.h
+[0.775s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__type_support.h
+[0.776s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.776s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/battery_status.h
+[0.777s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/inverter_status_stamped.h
+[0.777s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/inverter_status.h
+[0.777s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/environment/library_path.sh
+[0.778s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/environment/library_path.dsv
+[0.779s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib/librobotnik_battery_msgs__rosidl_generator_c.so
+[0.779s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs
+[0.779s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg
+[0.780s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.781s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail
+[0.781s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__rosidl_typesupport_fastrtps_c.h
+[0.781s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__rosidl_typesupport_fastrtps_c.h
+[0.782s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__rosidl_typesupport_fastrtps_c.h
+[0.782s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__rosidl_typesupport_fastrtps_c.h
+[0.782s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__rosidl_typesupport_fastrtps_c.h
+[0.783s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+[0.783s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib/librobotnik_battery_msgs__rosidl_typesupport_fastrtps_c.so
+[0.783s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs
+[0.784s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg
+[0.784s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/battery_status_stamped.hpp
+[0.784s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/inverter_status.hpp
+[0.785s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/docking_station_status.hpp
+[0.785s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.786s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail
+[0.786s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__type_support.hpp
+[0.787s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__struct.hpp
+[0.787s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__type_support.hpp
+[0.787s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__traits.hpp
+[0.788s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__builder.hpp
+[0.788s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__struct.hpp
+[0.788s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__builder.hpp
+[0.789s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__traits.hpp
+[0.790s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__builder.hpp
+[0.790s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__struct.hpp
+[0.791s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__traits.hpp
+[0.791s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__traits.hpp
+[0.792s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__struct.hpp
+[0.792s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__type_support.hpp
+[0.792s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__builder.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__type_support.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__type_support.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__builder.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__struct.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__struct.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__builder.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__traits.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__traits.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__type_support.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/battery_status.hpp
+[0.793s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/inverter_status_stamped.hpp
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/docking_station_status_stamped.hpp
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/dds_fastrtps
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib/librobotnik_battery_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs
+[0.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__rosidl_typesupport_introspection_c.h
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__type_support.c
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__type_support.c
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__type_support.c
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__rosidl_typesupport_introspection_c.h
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__rosidl_typesupport_introspection_c.h
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__type_support.c
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__rosidl_typesupport_introspection_c.h
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__type_support.c
+[0.795s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__type_support.c
+[0.796s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__rosidl_typesupport_introspection_c.h
+[0.796s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib/librobotnik_battery_msgs__rosidl_typesupport_introspection_c.so
+[0.796s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib/librobotnik_battery_msgs__rosidl_typesupport_c.so
+[0.796s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs
+[0.796s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg
+[0.796s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail
+[0.796s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__type_support.cpp
+[0.796s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__type_support.cpp
+[0.797s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__rosidl_typesupport_introspection_cpp.hpp
+[0.797s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__type_support.cpp
+[0.797s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__type_support.cpp
+[0.797s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__type_support.cpp
+[0.797s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.797s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.797s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+[0.797s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[0.798s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/docking_station_status__type_support.cpp
+[0.798s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/include/robotnik_battery_msgs/robotnik_battery_msgs/msg/detail/inverter_status__rosidl_typesupport_introspection_cpp.hpp
+[0.798s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib/librobotnik_battery_msgs__rosidl_typesupport_introspection_cpp.so
+[0.799s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib/librobotnik_battery_msgs__rosidl_typesupport_cpp.so
+[0.799s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/environment/pythonpath.sh
+[0.799s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/environment/pythonpath.dsv
+[0.800s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs-1.0.0-py3.10.egg-info
+[0.800s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[0.800s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[0.800s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[0.801s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[0.801s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs
+[0.801s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/_robotnik_battery_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.801s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/_robotnik_battery_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.802s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/librobotnik_battery_msgs__rosidl_generator_py.so
+[0.802s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/robotnik_battery_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.802s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/_robotnik_battery_msgs_s.ep.rosidl_typesupport_c.c
+[0.803s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/robotnik_battery_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.803s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg
+[0.803s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_battery_status_stamped.py
+[0.804s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_docking_station_status_stamped.py
+[0.804s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_docking_station_status.py
+[0.804s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_inverter_status_stamped_s.c
+[0.804s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_battery_status_s.c
+[0.805s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_inverter_status_stamped.py
+[0.805s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_inverter_status.py
+[0.805s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_battery_status_stamped_s.c
+[0.805s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_inverter_status_s.c
+[0.806s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/__init__.py
+[0.806s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_battery_status.py
+[0.806s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_docking_station_status_stamped_s.c
+[0.807s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg/_docking_station_status_s.c
+[0.807s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/robotnik_battery_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.807s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/__init__.py
+[0.857s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs'...
+[0.857s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/msg'...
+[0.864s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/robotnik_battery_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.864s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/robotnik_battery_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.865s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/local/lib/python3.10/dist-packages/robotnik_battery_msgs/robotnik_battery_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.865s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib/librobotnik_battery_msgs__rosidl_generator_py.so
+[0.865s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/BatteryStatus.idl
+[0.865s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/BatteryStatusStamped.idl
+[0.865s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/DockingStationStatus.idl
+[0.865s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/DockingStationStatusStamped.idl
+[0.865s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/InverterStatus.idl
+[0.865s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/InverterStatusStamped.idl
+[0.865s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/BatteryStatus.msg
+[0.865s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/BatteryStatusStamped.msg
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/DockingStationStatus.msg
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/DockingStationStatusStamped.msg
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/InverterStatus.msg
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/msg/InverterStatusStamped.msg
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/ament_index/resource_index/package_run_dependencies/robotnik_battery_msgs
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/ament_index/resource_index/parent_prefix_path/robotnik_battery_msgs
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/environment/ament_prefix_path.sh
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/environment/ament_prefix_path.dsv
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/environment/path.sh
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/environment/path.dsv
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/local_setup.bash
+[0.866s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/local_setup.sh
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/local_setup.zsh
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/local_setup.dsv
+[0.867s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/package.dsv
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/ament_index/resource_index/packages/robotnik_battery_msgs
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/export_robotnik_battery_msgs__rosidl_generator_cExport.cmake
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/export_robotnik_battery_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/export_robotnik_battery_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/export_robotnik_battery_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/export_robotnik_battery_msgs__rosidl_generator_cppExport.cmake
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/export_robotnik_battery_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/export_robotnik_battery_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/robotnik_battery_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/robotnik_battery_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/robotnik_battery_msgs__rosidl_typesupport_cExport.cmake
+[0.867s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/robotnik_battery_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/robotnik_battery_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/robotnik_battery_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/robotnik_battery_msgs__rosidl_typesupport_cppExport.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/robotnik_battery_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/export_robotnik_battery_msgs__rosidl_generator_pyExport.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/export_robotnik_battery_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/rosidl_cmake-extras.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/robotnik_battery_msgsConfig.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/cmake/robotnik_battery_msgsConfig-version.cmake
+[0.868s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/share/robotnik_battery_msgs/package.xml
+[0.873s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs

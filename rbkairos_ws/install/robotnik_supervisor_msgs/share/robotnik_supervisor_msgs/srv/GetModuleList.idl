@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robotnik_supervisor_msgs/srv/GetModuleList.srv
+// generated code does not contain a copyright notice
+
+#include "robotnik_common_msgs/msg/Response.idl"
+
+module robotnik_supervisor_msgs {
+  module srv {
+    struct GetModuleList_Request {
+      string stack;
+    };
+    struct GetModuleList_Response {
+      robotnik_common_msgs::msg::Response response;
+
+      sequence<string> modules;
+    };
+  };
+};

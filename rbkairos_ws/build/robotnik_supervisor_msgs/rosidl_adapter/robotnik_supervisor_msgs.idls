@@ -1,0 +1,10 @@
+/home/hima/bachelors/rbkairos_ws/build/robotnik_supervisor_msgs/rosidl_adapter/robotnik_supervisor_msgs:srv/DownStack.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_supervisor_msgs/rosidl_adapter/robotnik_supervisor_msgs:srv/GetModuleList.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_supervisor_msgs/rosidl_adapter/robotnik_supervisor_msgs:srv/GetStackList.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_supervisor_msgs/rosidl_adapter/robotnik_supervisor_msgs:srv/GetStackLogs.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_supervisor_msgs/rosidl_adapter/robotnik_supervisor_msgs:srv/GetStackStatus.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_supervisor_msgs/rosidl_adapter/robotnik_supervisor_msgs:srv/RestartStack.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_supervisor_msgs/rosidl_adapter/robotnik_supervisor_msgs:srv/StartModule.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_supervisor_msgs/rosidl_adapter/robotnik_supervisor_msgs:srv/StartStack.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_supervisor_msgs/rosidl_adapter/robotnik_supervisor_msgs:srv/StopModule.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_supervisor_msgs/rosidl_adapter/robotnik_supervisor_msgs:srv/StopStack.idl

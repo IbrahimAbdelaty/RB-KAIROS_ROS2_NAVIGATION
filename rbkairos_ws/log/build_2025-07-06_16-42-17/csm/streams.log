@@ -1,0 +1,64 @@
+[0.024s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/csm -- -j16 -l16
+[0.201s] [  4%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/logging.cpp.o[0m
+[0.201s] [ 12%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils.cpp.o[0m
+[0.204s] [ 12%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/laser_data.cpp.o[0m
+[0.204s] [ 16%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/utils.cpp.o[0m
+[0.205s] [ 20%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl.cpp.o[0m
+[0.205s] [ 25%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/math_utils_gsl.cpp.o[0m
+[0.206s] [ 29%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/sm_options.cpp.o[0m
+[0.207s] [ 33%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_conversions.cpp.o[0m
+[0.215s] [ 37%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/orientation.cpp.o[0m
+[0.219s] [ 41%] [32mBuilding CXX object CMakeFiles/csm.dir/src/csm/clustering.cpp.o[0m
+[0.282s] [ 45%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_ops.cpp.o[0m
+[0.291s] [ 50%] [32mBuilding CXX object CMakeFiles/csm.dir/src/egsl/egsl_misc.cpp.o[0m
+[0.317s] [ 54%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc.cpp.o[0m
+[0.338s] [ 58%] [32mBuilding CXX object CMakeFiles/csm.dir/src/gpc/gpc_utils.cpp.o[0m
+[0.339s] [ 62%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp.cpp.o[0m
+[0.397s] [ 66%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_dumb.cpp.o[0m
+[6.457s] [ 70%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_corr_tricks.cpp.o[0m
+[6.627s] [ 75%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_covariance.cpp.o[0m
+[6.749s] [ 79%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_debug.cpp.o[0m
+[6.915s] [ 83%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_loop.cpp.o[0m
+[6.964s] [ 87%] [32mBuilding CXX object CMakeFiles/csm.dir/src/icp/icp_outliers.cpp.o[0m
+[6.983s] [ 91%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options.cpp.o[0m
+[7.166s] [ 95%] [32mBuilding CXX object CMakeFiles/csm.dir/src/options/options_interface.cpp.o[0m
+[32.740s] [100%] [32m[1mLinking CXX shared library libcsm.so[0m
+[33.231s] [100%] Built target csm
+[33.247s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/csm -- -j16 -l16
+[33.250s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/csm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/csm
+[33.263s] -- Install configuration: ""
+[33.264s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/csm/lib/libcsm.so
+[33.270s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/..//include
+[33.270s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/..//include/gsl_eigen
+[33.270s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/..//include/gsl_eigen/gsl_eigen.h
+[33.270s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/..//include/csm
+[33.270s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/..//include/csm/csm.h
+[33.271s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/..//include/csm/algos.h
+[33.271s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/..//include/csm/laser_data_inline.h
+[33.271s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/..//include/csm/laser_data.h
+[33.271s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/..//include/csm/restrict.h
+[33.271s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/resource
+[33.271s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/resource/csm
+[33.271s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/../gsl_eigen
+[33.271s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/include/../gsl_eigen/gsl_eigen.h
+[33.271s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/environment/library_path.sh
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/environment/library_path.dsv
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/ament_index/resource_index/package_run_dependencies/csm
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/ament_index/resource_index/parent_prefix_path/csm
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/environment/ament_prefix_path.sh
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/environment/ament_prefix_path.dsv
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/environment/path.sh
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/environment/path.dsv
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/local_setup.bash
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/local_setup.sh
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/local_setup.zsh
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/local_setup.dsv
+[33.272s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/package.dsv
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/ament_index/resource_index/packages/csm
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/cmake/ament_cmake_export_libraries-extras.cmake
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/cmake/csmConfig.cmake
+[33.272s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/cmake/csmConfig-version.cmake
+[33.273s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/csm/share/csm/package.xml
+[33.276s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/csm

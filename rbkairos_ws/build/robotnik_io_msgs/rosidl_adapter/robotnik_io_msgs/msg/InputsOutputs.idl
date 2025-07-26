@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotnik_io_msgs/msg/InputsOutputs.msg
+// generated code does not contain a copyright notice
+
+#include "robotnik_io_msgs/msg/AnalogIO.idl"
+#include "robotnik_io_msgs/msg/DigitalIO.idl"
+
+module robotnik_io_msgs {
+  module msg {
+    struct InputsOutputs {
+      sequence<robotnik_io_msgs::msg::DigitalIO> digital_inputs;
+
+      sequence<robotnik_io_msgs::msg::DigitalIO> digital_outputs;
+
+      sequence<robotnik_io_msgs::msg::AnalogIO> analog_inputs;
+
+      sequence<robotnik_io_msgs::msg::AnalogIO> analog_outputs;
+    };
+  };
+};

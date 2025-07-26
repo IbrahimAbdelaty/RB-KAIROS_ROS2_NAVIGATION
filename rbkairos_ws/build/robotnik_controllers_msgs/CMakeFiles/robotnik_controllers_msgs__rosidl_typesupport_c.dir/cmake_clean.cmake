@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/msg/controller_state__type_support.cpp.o"
+  "CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/msg/controller_state__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/srv/available_kinematics__type_support.cpp.o"
+  "CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/srv/available_kinematics__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/srv/change_kinematics__type_support.cpp.o"
+  "CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/srv/change_kinematics__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/srv/set_odometry__type_support.cpp.o"
+  "CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/srv/set_odometry__type_support.cpp.o.d"
+  "librobotnik_controllers_msgs__rosidl_typesupport_c.pdb"
+  "librobotnik_controllers_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/robotnik_controllers_msgs/msg/controller_state__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_controllers_msgs/srv/available_kinematics__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_controllers_msgs/srv/change_kinematics__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_controllers_msgs/srv/set_odometry__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

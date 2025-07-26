@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robotnik_io_msgs/srv/SetAnalogOutput.srv
+// generated code does not contain a copyright notice
+
+#include "robotnik_common_msgs/msg/Response.idl"
+#include "robotnik_io_msgs/msg/AnalogIO.idl"
+
+module robotnik_io_msgs {
+  module srv {
+    struct SetAnalogOutput_Request {
+      robotnik_io_msgs::msg::AnalogIO output;
+    };
+    struct SetAnalogOutput_Response {
+      robotnik_common_msgs::msg::Response response;
+    };
+  };
+};

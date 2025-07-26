@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotnik_battery_msgs/msg/DockingStationStatus.msg
+// generated code does not contain a copyright notice
+
+
+module robotnik_battery_msgs {
+  module msg {
+    module DockingStationStatus_Constants {
+      const string MODE_DISABLED = "disabled";
+      @verbatim (language="comment", text=
+        "Unattended relay detection & activation with no inputs/outputs feedback. Done by the hw")
+      const string MODE_AUTO_HW = "automatic_hw";
+      @verbatim (language="comment", text=
+        "Unattended relay detection & activation with inputs/outputs feedback. Done by the sw")
+      const string MODE_AUTO_SW = "automatic_sw";
+      @verbatim (language="comment", text=
+        "Unattended relay detection & and manual activation of the charging relay")
+      const string MODE_MANUAL_SW = "manual_sw";
+    };
+    @verbatim (language="comment", text=
+      "Modes of operation:" "\n"
+      "no docking station contacts")
+    struct DockingStationStatus {
+      string operation_mode;
+
+      @verbatim (language="comment", text=
+        "shows if there's contact with the charger")
+      boolean contact_relay_status;
+
+      @verbatim (language="comment", text=
+        "shows if the relay for the charge is active or not")
+      boolean charger_relay_status;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+source;share/robotnik_gazebo_classic/local_setup.bash
+source;share/robotnik_gazebo_classic/local_setup.dsv
+source;share/robotnik_gazebo_classic/local_setup.sh
+source;share/robotnik_gazebo_classic/local_setup.zsh

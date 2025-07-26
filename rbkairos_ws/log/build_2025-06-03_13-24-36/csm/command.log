@@ -1,0 +1,6 @@
+Invoking command in '/home/hima/bachelors/rbkairos_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/csm -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/csm
+Invoked command in '/home/hima/bachelors/rbkairos_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/csm -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/csm
+Invoking command in '/home/hima/bachelors/rbkairos_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/csm -- -j16 -l16
+Invoked command in '/home/hima/bachelors/rbkairos_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/csm -- -j16 -l16
+Invoking command in '/home/hima/bachelors/rbkairos_ws/build/csm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/csm
+Invoked command in '/home/hima/bachelors/rbkairos_ws/build/csm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/csm

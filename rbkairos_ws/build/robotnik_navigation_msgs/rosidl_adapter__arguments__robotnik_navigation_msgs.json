@@ -1,0 +1,7 @@
+{
+  "package_name": "robotnik_navigation_msgs",
+  "non_idl_tuples": [
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_navigation_msgs:action/Dock.action",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_navigation_msgs:action/Move.action"
+  ]
+}

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-432e4d53adcbfd5b9eca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robotnik_controllers_msgs__py",
+					"jsonFile" : "directory-robotnik_controllers_msgs__py-8d2468fc3ace1de27839.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs/robotnik_controllers_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robotnik_controllers_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robotnik_controllers_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robotnik_controllers_msgs_egg-8e312133f86f3fab256f.json",
+					"name" : "ament_cmake_python_build_robotnik_controllers_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robotnik_controllers_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robotnik_controllers_msgs-631a19e6711502886dd1.json",
+					"name" : "ament_cmake_python_copy_robotnik_controllers_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs-d8cf5dab93d811a5ca6e.json",
+					"name" : "robotnik_controllers_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__cpp-4612817fcf3cdd99b566.json",
+					"name" : "robotnik_controllers_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robotnik_controllers_msgs__py::@a92b5a6a1c31b2988f20",
+					"jsonFile" : "target-robotnik_controllers_msgs__py-e34db5237cb54be14f1d.json",
+					"name" : "robotnik_controllers_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_generator_c-b2cc9ae258e9e1c2ac37.json",
+					"name" : "robotnik_controllers_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_generator_py-7e0f46fd66e006124087.json",
+					"name" : "robotnik_controllers_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_typesupport_c-72f7a79e60376a87c758.json",
+					"name" : "robotnik_controllers_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_typesupport_c__pyext-98041e98b33a048607a4.json",
+					"name" : "robotnik_controllers_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_typesupport_cpp-d36864e1a1b8c3f55984.json",
+					"name" : "robotnik_controllers_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c-4a50e6f0dfa4076b006b.json",
+					"name" : "robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c__pyext-f88c72cf6cd96fcb0292.json",
+					"name" : "robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp-e27a69b9e9e1aa3293f5.json",
+					"name" : "robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_typesupport_introspection_c-39897c0ecf6b7988ed1a.json",
+					"name" : "robotnik_controllers_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_typesupport_introspection_c__pyext-a4cc41af944f34e682c6.json",
+					"name" : "robotnik_controllers_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs__rosidl_typesupport_introspection_cpp-1703eccabdb17a58490e.json",
+					"name" : "robotnik_controllers_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_controllers_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_controllers_msgs_uninstall-2fc82614b012de7256fa.json",
+					"name" : "robotnik_controllers_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b09999c68aa62c6fbcf1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs",
+		"source" : "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_controllers_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

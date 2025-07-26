@@ -1,0 +1,556 @@
+[0.026s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_io_msgs -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.201s] -- The CXX compiler identification is GNU 11.4.0
+[0.218s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.312s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.312s] -- Detecting C compile features
+[0.313s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.397s] -- Detecting CXX compiler ABI info - done
+[0.405s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.405s] -- Detecting CXX compile features
+[0.406s] -- Detecting CXX compile features - done
+[0.409s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.631s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.748s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.788s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.794s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.804s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.816s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.833s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.848s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.857s] -- Found robotnik_common_msgs: 1.0.0 (/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake)
+[1.269s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.272s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.275s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.278s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.785s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.809s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.812s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.847s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.847s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.847s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.847s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.872s] -- Found PythonExtra: .so  
+[1.926s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.929s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.932s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.946s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.946s] -- Added test 'lint_cmake' to check CMake code style
+[1.947s] -- Added test 'xmllint' to check XML markup files
+[1.949s] -- Configuring done
+[1.989s] -- Generating done
+[2.001s] -- Build files have been written to: /home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs
+[2.010s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_io_msgs -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs
+[2.012s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs -- -j16 -l16
+[2.054s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.064s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.070s] [  1%] Built target ament_cmake_python_copy_robotnik_io_msgs
+[2.546s] running egg_info
+[2.547s] creating robotnik_io_msgs.egg-info
+[2.548s] writing robotnik_io_msgs.egg-info/PKG-INFO
+[2.548s] writing dependency_links to robotnik_io_msgs.egg-info/dependency_links.txt
+[2.548s] writing top-level names to robotnik_io_msgs.egg-info/top_level.txt
+[2.548s] writing manifest file 'robotnik_io_msgs.egg-info/SOURCES.txt'
+[2.553s] reading manifest file 'robotnik_io_msgs.egg-info/SOURCES.txt'
+[2.553s] writing manifest file 'robotnik_io_msgs.egg-info/SOURCES.txt'
+[2.595s] [  1%] Built target ament_cmake_python_build_robotnik_io_msgs_egg
+[3.757s] [  1%] Built target robotnik_io_msgs__cpp
+[3.784s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.793s] [  2%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.794s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.459s] [  4%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/msg/detail/analog_io__functions.c.o[0m
+[4.466s] [  5%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/msg/detail/inputs_outputs__functions.c.o[0m
+[4.471s] [  6%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/msg/detail/digital_io__functions.c.o[0m
+[4.479s] [  6%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/srv/detail/set_analog_output_array__functions.c.o[0m
+[4.480s] [  7%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/srv/detail/get_registers__functions.c.o[0m
+[4.487s] [  8%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/msg/detail/register_array__functions.c.o[0m
+[4.487s] [  9%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/msg/detail/register__functions.c.o[0m
+[4.494s] [ 11%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/srv/detail/set_digital_output_array__functions.c.o[0m
+[4.495s] [ 12%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/srv/detail/set_analog_output__functions.c.o[0m
+[4.501s] [ 12%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/srv/detail/set_digital_output__functions.c.o[0m
+[4.510s] [ 13%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_io_msgs/srv/detail/set_registers__functions.c.o[0m
+[4.828s] [ 14%] [32m[1mLinking C shared library librobotnik_io_msgs__rosidl_generator_c.so[0m
+[4.994s] [ 14%] Built target robotnik_io_msgs__rosidl_generator_c
+[5.036s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.044s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.044s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.646s] [ 18%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/msg/detail/analog_io__type_support.cpp.o[0m
+[5.648s] [ 19%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/msg/detail/inputs_outputs__type_support.cpp.o[0m
+[5.654s] [ 19%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/msg/detail/digital_io__type_support.cpp.o[0m
+[5.661s] [ 20%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/msg/detail/register_array__type_support.cpp.o[0m
+[5.671s] [ 21%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/msg/detail/register__type_support.cpp.o[0m
+[5.674s] [ 22%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/srv/detail/set_analog_output__type_support.cpp.o[0m
+[5.682s] [ 24%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/srv/detail/set_analog_output_array__type_support.cpp.o[0m
+[5.682s] [ 24%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/srv/detail/get_registers__type_support.cpp.o[0m
+[5.731s] [ 25%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/srv/detail/set_digital_output__type_support.cpp.o[0m
+[5.737s] [ 26%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/srv/detail/set_digital_output_array__type_support.cpp.o[0m
+[5.741s] [ 27%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_io_msgs/srv/detail/set_registers__type_support.cpp.o[0m
+[7.664s] [ 28%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/msg/analog_io__type_support.cpp.o[0m
+[7.894s] [ 29%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/msg/digital_io__type_support.cpp.o[0m
+[8.106s] [ 30%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/msg/inputs_outputs__type_support.cpp.o[0m
+[8.131s] [ 31%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/msg/register_array__type_support.cpp.o[0m
+[8.140s] [ 32%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/msg/register__type_support.cpp.o[0m
+[8.227s] [ 33%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/srv/get_registers__type_support.cpp.o[0m
+[8.488s] [ 34%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/srv/set_analog_output__type_support.cpp.o[0m
+[8.702s] [ 34%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/srv/set_analog_output_array__type_support.cpp.o[0m
+[8.819s] [ 35%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/msg/detail/analog_io__type_support_c.cpp.o[0m
+[8.868s] [ 36%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/srv/set_digital_output__type_support.cpp.o[0m
+[8.941s] [ 37%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/msg/detail/digital_io__type_support_c.cpp.o[0m
+[9.338s] [ 38%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/analog_io__type_support.cpp.o[0m
+[9.428s] [ 39%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/msg/detail/inputs_outputs__type_support_c.cpp.o[0m
+[9.569s] [ 40%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/digital_io__type_support.cpp.o[0m
+[9.634s] [ 41%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/msg/detail/register_array__type_support_c.cpp.o[0m
+[9.715s] [ 42%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/msg/detail/dds_fastrtps/analog_io__type_support.cpp.o[0m
+[9.771s] [ 42%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/inputs_outputs__type_support.cpp.o[0m
+[9.771s] [ 42%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/msg/detail/register__type_support_c.cpp.o[0m
+[9.801s] [ 43%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/register_array__type_support.cpp.o[0m
+[9.967s] [ 44%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/register__type_support.cpp.o[0m
+[10.095s] [ 45%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/get_registers__type_support.cpp.o[0m
+[10.126s] [ 46%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/srv/detail/get_registers__type_support_c.cpp.o[0m
+[10.128s] [ 47%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_analog_output__type_support.cpp.o[0m
+[10.260s] [ 48%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/srv/detail/set_analog_output__type_support_c.cpp.o[0m
+[10.325s] [ 49%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/msg/detail/dds_fastrtps/digital_io__type_support.cpp.o[0m
+[10.400s] [ 50%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/msg/detail/dds_fastrtps/inputs_outputs__type_support.cpp.o[0m
+[10.469s] [ 51%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_analog_output_array__type_support.cpp.o[0m
+[10.564s] [ 52%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/srv/detail/set_analog_output_array__type_support_c.cpp.o[0m
+[10.833s] [ 53%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_digital_output__type_support.cpp.o[0m
+[10.889s] [ 54%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/srv/set_digital_output_array__type_support.cpp.o[0m
+[11.102s] [ 55%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_digital_output_array__type_support.cpp.o[0m
+[11.357s] [ 56%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/srv/detail/set_digital_output__type_support_c.cpp.o[0m
+[11.358s] [ 57%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_registers__type_support.cpp.o[0m
+[11.445s] [ 58%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_io_msgs/srv/set_registers__type_support.cpp.o[0m
+[11.476s] [ 59%] [32m[1mLinking CXX shared library librobotnik_io_msgs__rosidl_typesupport_c.so[0m
+[11.668s] [ 60%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/srv/detail/set_digital_output_array__type_support_c.cpp.o[0m
+[11.682s] [ 60%] Built target robotnik_io_msgs__rosidl_typesupport_c
+[11.737s] [ 61%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_io_msgs/srv/detail/set_registers__type_support_c.cpp.o[0m
+[11.778s] [ 62%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/msg/detail/dds_fastrtps/register__type_support.cpp.o[0m
+[11.807s] [ 63%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/srv/detail/dds_fastrtps/get_registers__type_support.cpp.o[0m
+[11.828s] [ 64%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/srv/detail/dds_fastrtps/set_analog_output__type_support.cpp.o[0m
+[11.837s] [ 65%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/msg/detail/dds_fastrtps/register_array__type_support.cpp.o[0m
+[11.848s] [ 66%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/srv/detail/dds_fastrtps/set_analog_output_array__type_support.cpp.o[0m
+[11.930s] [ 67%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/srv/detail/dds_fastrtps/set_digital_output__type_support.cpp.o[0m
+[12.602s] [ 67%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/srv/detail/dds_fastrtps/set_digital_output_array__type_support.cpp.o[0m
+[12.722s] [ 68%] [32mBuilding CXX object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_io_msgs/srv/detail/dds_fastrtps/set_registers__type_support.cpp.o[0m
+[13.110s] [ 69%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/msg/detail/analog_io__type_support.c.o[0m
+[13.132s] [ 70%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/msg/detail/inputs_outputs__type_support.c.o[0m
+[13.133s] [ 71%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/msg/detail/digital_io__type_support.c.o[0m
+[13.220s] [ 72%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/msg/detail/register_array__type_support.c.o[0m
+[13.243s] [ 73%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/msg/detail/register__type_support.c.o[0m
+[13.260s] [ 74%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/srv/detail/get_registers__type_support.c.o[0m
+[13.269s] [ 74%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/srv/detail/set_analog_output__type_support.c.o[0m
+[13.303s] [ 75%] [32m[1mLinking CXX shared library librobotnik_io_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.321s] [ 76%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/srv/detail/set_analog_output_array__type_support.c.o[0m
+[13.334s] [ 77%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/srv/detail/set_digital_output__type_support.c.o[0m
+[13.342s] [ 78%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/srv/detail/set_digital_output_array__type_support.c.o[0m
+[13.360s] [ 79%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_io_msgs/srv/detail/set_registers__type_support.c.o[0m
+[13.464s] [ 80%] [32m[1mLinking C shared library librobotnik_io_msgs__rosidl_typesupport_introspection_c.so[0m
+[13.518s] [ 80%] Built target robotnik_io_msgs__rosidl_typesupport_introspection_c
+[13.524s] [ 80%] Built target robotnik_io_msgs__rosidl_typesupport_introspection_cpp
+[13.690s] [ 81%] [32m[1mLinking CXX shared library librobotnik_io_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[14.027s] [ 81%] Built target robotnik_io_msgs__rosidl_typesupport_fastrtps_c
+[14.556s] [ 82%] [32m[1mLinking CXX shared library librobotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.707s] [ 82%] Built target robotnik_io_msgs__rosidl_typesupport_fastrtps_cpp
+[14.838s] [ 83%] [32m[1mLinking CXX shared library librobotnik_io_msgs__rosidl_typesupport_cpp.so[0m
+[14.906s] [ 83%] Built target robotnik_io_msgs__rosidl_typesupport_cpp
+[14.966s] [ 83%] Built target robotnik_io_msgs
+[15.021s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.713s] [ 84%] Built target robotnik_io_msgs__py
+[16.774s] [ 85%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/msg/_inputs_outputs_s.c.o[0m
+[16.774s] [ 86%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/msg/_analog_io_s.c.o[0m
+[16.774s] [ 87%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/msg/_digital_io_s.c.o[0m
+[16.777s] [ 88%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/msg/_register_s.c.o[0m
+[16.790s] [ 88%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/srv/_get_registers_s.c.o[0m
+[16.799s] [ 89%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/srv/_set_digital_output_array_s.c.o[0m
+[16.800s] [ 90%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/srv/_set_analog_output_s.c.o[0m
+[16.807s] [ 91%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/srv/_set_digital_output_s.c.o[0m
+[16.809s] [ 93%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/srv/_set_registers_s.c.o[0m
+[16.810s] [ 93%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/srv/_set_analog_output_array_s.c.o[0m
+[16.819s] [ 94%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_io_msgs/msg/_register_array_s.c.o[0m
+[17.216s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_io_msgs/librobotnik_io_msgs__rosidl_generator_py.so[0m
+[17.316s] [ 95%] Built target robotnik_io_msgs__rosidl_generator_py
+[17.372s] [ 95%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robotnik_io_msgs/_robotnik_io_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[17.387s] [ 96%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robotnik_io_msgs/_robotnik_io_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.423s] [ 97%] [32mBuilding C object CMakeFiles/robotnik_io_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robotnik_io_msgs/_robotnik_io_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.581s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.813s] [ 98%] Built target robotnik_io_msgs__rosidl_typesupport_c__pyext
+[18.328s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.400s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.418s] [100%] Built target robotnik_io_msgs__rosidl_typesupport_introspection_c__pyext
+[18.486s] [100%] Built target robotnik_io_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.515s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs -- -j16 -l16
+[18.527s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs
+[18.534s] -- Install configuration: ""
+[18.537s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/ament_index/resource_index/rosidl_interfaces/robotnik_io_msgs
+[18.539s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs
+[18.540s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv
+[18.540s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/get_registers.h
+[18.541s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/set_analog_output.h
+[18.541s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/set_digital_output_array.h
+[18.541s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/set_analog_output_array.h
+[18.541s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/set_registers.h
+[18.541s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail
+[18.541s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__functions.h
+[18.542s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__functions.c
+[18.542s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__type_support.h
+[18.542s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__functions.c
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__struct.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__functions.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__struct.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__functions.c
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__functions.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__functions.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__struct.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__functions.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__struct.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__functions.c
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__functions.c
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__type_support.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__type_support.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__type_support.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__struct.h
+[18.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__type_support.h
+[18.544s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__struct.h
+[18.544s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__functions.h
+[18.544s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__functions.c
+[18.544s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__type_support.h
+[18.544s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/set_digital_output.h
+[18.546s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg
+[18.548s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail
+[18.553s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__struct.h
+[18.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__functions.c
+[18.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__type_support.h
+[18.558s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__type_support.h
+[18.558s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__type_support.h
+[18.559s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__type_support.h
+[18.559s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__functions.c
+[18.559s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__functions.c
+[18.559s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__struct.h
+[18.559s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__functions.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__functions.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__functions.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__struct.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__struct.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__functions.c
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__functions.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__struct.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__functions.c
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__functions.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__type_support.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/register_array.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/rosidl_generator_c__visibility_control.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/digital_io.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/inputs_outputs.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/analog_io.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/register.h
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/environment/library_path.sh
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/environment/library_path.dsv
+[18.560s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_generator_c.so
+[18.560s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_generator_c.so" to ""
+[18.560s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs
+[18.561s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv
+[18.561s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.561s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__rosidl_typesupport_fastrtps_c.h
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_fastrtps_c.so
+[18.561s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[18.561s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs
+[18.561s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/set_digital_output.hpp
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/set_digital_output_array.hpp
+[18.561s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/get_registers.hpp
+[18.562s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__traits.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__builder.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__traits.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__type_support.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__struct.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__type_support.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__builder.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__builder.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__struct.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__type_support.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__traits.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__struct.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__struct.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__builder.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__type_support.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__traits.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__type_support.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__builder.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__type_support.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__traits.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__struct.hpp
+[18.562s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__builder.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__struct.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__traits.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/set_analog_output_array.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/set_registers.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/set_analog_output.hpp
+[18.563s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/register.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/analog_io.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/inputs_outputs.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/digital_io.hpp
+[18.563s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__builder.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__struct.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__traits.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__builder.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__traits.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__builder.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__type_support.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__type_support.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__type_support.hpp
+[18.563s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__traits.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__builder.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__traits.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__traits.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__type_support.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__struct.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__struct.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__struct.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__builder.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__struct.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__type_support.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/register_array.hpp
+[18.564s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs
+[18.564s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv
+[18.564s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__rosidl_typesupport_fastrtps_cpp.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__rosidl_typesupport_fastrtps_cpp.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__rosidl_typesupport_fastrtps_cpp.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__rosidl_typesupport_fastrtps_cpp.hpp
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/dds_fastrtps
+[18.564s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__rosidl_typesupport_fastrtps_cpp.hpp
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__rosidl_typesupport_fastrtps_cpp.hpp
+[18.565s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.565s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__rosidl_typesupport_fastrtps_cpp.hpp
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__rosidl_typesupport_fastrtps_cpp.hpp
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__rosidl_typesupport_fastrtps_cpp.hpp
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__rosidl_typesupport_fastrtps_cpp.hpp
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/dds_fastrtps
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__rosidl_typesupport_fastrtps_cpp.hpp
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.so
+[18.565s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.565s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs
+[18.565s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv
+[18.565s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__rosidl_typesupport_introspection_c.h
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__rosidl_typesupport_introspection_c.h
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__type_support.c
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__rosidl_typesupport_introspection_c.h
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__type_support.c
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__rosidl_typesupport_introspection_c.h
+[18.565s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__type_support.c
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__type_support.c
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__type_support.c
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__rosidl_typesupport_introspection_c.h
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__rosidl_typesupport_introspection_c.h
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__type_support.c
+[18.566s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.566s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__type_support.c
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__type_support.c
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__type_support.c
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__rosidl_typesupport_introspection_c.h
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__rosidl_typesupport_introspection_c.h
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__rosidl_typesupport_introspection_c.h
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__rosidl_typesupport_introspection_c.h
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__type_support.c
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__rosidl_typesupport_introspection_c.h
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__type_support.c
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_introspection_c.so
+[18.566s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_introspection_c.so" to ""
+[18.566s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_c.so
+[18.566s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_c.so" to ""
+[18.567s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs
+[18.567s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv
+[18.567s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__rosidl_typesupport_introspection_cpp.hpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__rosidl_typesupport_introspection_cpp.hpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__rosidl_typesupport_introspection_cpp.hpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output_array__type_support.cpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/get_registers__type_support.cpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__rosidl_typesupport_introspection_cpp.hpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__rosidl_typesupport_introspection_cpp.hpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output__type_support.cpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__rosidl_typesupport_introspection_cpp.hpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_digital_output_array__type_support.cpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_analog_output__type_support.cpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/srv/detail/set_registers__type_support.cpp
+[18.567s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg
+[18.567s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__type_support.cpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__rosidl_typesupport_introspection_cpp.hpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__rosidl_typesupport_introspection_cpp.hpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__rosidl_typesupport_introspection_cpp.hpp
+[18.567s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register__rosidl_typesupport_introspection_cpp.hpp
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/digital_io__type_support.cpp
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__rosidl_typesupport_introspection_cpp.hpp
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/inputs_outputs__type_support.cpp
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/register_array__type_support.cpp
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/include/robotnik_io_msgs/robotnik_io_msgs/msg/detail/analog_io__type_support.cpp
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_introspection_cpp.so
+[18.568s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_cpp.so
+[18.568s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_typesupport_cpp.so" to ""
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/environment/pythonpath.sh
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/environment/pythonpath.dsv
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs-1.0.0-py3.10.egg-info
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/_robotnik_io_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_digital_output.py
+[18.568s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_get_registers.py
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_registers.py
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_digital_output_array_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/__init__.py
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_registers_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_digital_output_array.py
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_analog_output.py
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_analog_output_array.py
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_analog_output_array_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_digital_output_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_analog_output_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_get_registers_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/_robotnik_io_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_digital_io_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_register_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_analog_io_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/__init__.py
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_inputs_outputs_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_register_array_s.c
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_analog_io.py
+[18.569s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_register_array.py
+[18.570s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_digital_io.py
+[18.570s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_register.py
+[18.570s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_inputs_outputs.py
+[18.570s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.570s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/__init__.py
+[18.570s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/librobotnik_io_msgs__rosidl_generator_py.so
+[18.570s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/_robotnik_io_msgs_s.ep.rosidl_typesupport_c.c
+[18.670s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs'...
+[18.670s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/__init__.py'...
+[18.671s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg'...
+[18.671s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/__init__.py'...
+[18.671s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_analog_io.py'...
+[18.671s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_digital_io.py'...
+[18.671s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_inputs_outputs.py'...
+[18.671s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_register.py'...
+[18.672s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/msg/_register_array.py'...
+[18.672s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv'...
+[18.672s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/__init__.py'...
+[18.672s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_get_registers.py'...
+[18.672s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_analog_output.py'...
+[18.672s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_analog_output_array.py'...
+[18.672s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_digital_output.py'...
+[18.672s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_digital_output_array.py'...
+[18.672s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/srv/_set_registers.py'...
+[18.685s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.688s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.689s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.690s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.691s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.692s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/local/lib/python3.10/dist-packages/robotnik_io_msgs/robotnik_io_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.693s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_generator_py.so
+[18.694s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib/librobotnik_io_msgs__rosidl_generator_py.so" to ""
+[18.695s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/msg/AnalogIO.idl
+[18.696s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/msg/DigitalIO.idl
+[18.697s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/msg/InputsOutputs.idl
+[18.698s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/msg/RegisterArray.idl
+[18.699s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/msg/Register.idl
+[18.699s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/GetRegisters.idl
+[18.700s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetAnalogOutput.idl
+[18.700s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetAnalogOutputArray.idl
+[18.701s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetDigitalOutput.idl
+[18.702s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetDigitalOutputArray.idl
+[18.702s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetRegisters.idl
+[18.703s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/msg/AnalogIO.msg
+[18.703s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/msg/DigitalIO.msg
+[18.704s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/msg/InputsOutputs.msg
+[18.704s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/msg/RegisterArray.msg
+[18.705s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/msg/Register.msg
+[18.705s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/GetRegisters.srv
+[18.706s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/GetRegisters_Request.msg
+[18.706s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/GetRegisters_Response.msg
+[18.707s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetAnalogOutput.srv
+[18.707s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetAnalogOutput_Request.msg
+[18.708s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetAnalogOutput_Response.msg
+[18.708s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetAnalogOutputArray.srv
+[18.709s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetAnalogOutputArray_Request.msg
+[18.710s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetAnalogOutputArray_Response.msg
+[18.710s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetDigitalOutput.srv
+[18.711s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetDigitalOutput_Request.msg
+[18.711s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetDigitalOutput_Response.msg
+[18.712s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetDigitalOutputArray.srv
+[18.712s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetDigitalOutputArray_Request.msg
+[18.713s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetDigitalOutputArray_Response.msg
+[18.713s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetRegisters.srv
+[18.714s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetRegisters_Request.msg
+[18.714s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/srv/SetRegisters_Response.msg
+[18.715s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/ament_index/resource_index/package_run_dependencies/robotnik_io_msgs
+[18.715s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/ament_index/resource_index/parent_prefix_path/robotnik_io_msgs
+[18.716s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/environment/ament_prefix_path.sh
+[18.716s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/environment/ament_prefix_path.dsv
+[18.717s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/environment/path.sh
+[18.717s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/environment/path.dsv
+[18.718s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/local_setup.bash
+[18.720s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/local_setup.sh
+[18.720s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/local_setup.zsh
+[18.721s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/local_setup.dsv
+[18.721s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/package.dsv
+[18.722s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/ament_index/resource_index/packages/robotnik_io_msgs
+[18.723s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/export_robotnik_io_msgs__rosidl_generator_cExport.cmake
+[18.723s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/export_robotnik_io_msgs__rosidl_generator_cExport-noconfig.cmake
+[18.724s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/export_robotnik_io_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[18.725s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/export_robotnik_io_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.725s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/export_robotnik_io_msgs__rosidl_generator_cppExport.cmake
+[18.726s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/export_robotnik_io_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.726s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/export_robotnik_io_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.727s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/robotnik_io_msgs__rosidl_typesupport_introspection_cExport.cmake
+[18.727s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/robotnik_io_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.728s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/robotnik_io_msgs__rosidl_typesupport_cExport.cmake
+[18.729s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/robotnik_io_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[18.729s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/robotnik_io_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[18.730s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/robotnik_io_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.730s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/robotnik_io_msgs__rosidl_typesupport_cppExport.cmake
+[18.731s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/robotnik_io_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[18.732s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/export_robotnik_io_msgs__rosidl_generator_pyExport.cmake
+[18.733s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/export_robotnik_io_msgs__rosidl_generator_pyExport-noconfig.cmake
+[18.733s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/rosidl_cmake-extras.cmake
+[18.734s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.734s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.735s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[18.739s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[18.745s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.750s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.752s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/robotnik_io_msgsConfig.cmake
+[18.753s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/cmake/robotnik_io_msgsConfig-version.cmake
+[18.753s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/share/robotnik_io_msgs/package.xml
+[18.756s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs

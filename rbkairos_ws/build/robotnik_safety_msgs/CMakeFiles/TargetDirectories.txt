@@ -1,0 +1,9 @@
+/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs/CMakeFiles/uninstall.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs/CMakeFiles/robotnik_safety_msgs_uninstall.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs/CMakeFiles/test.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs/CMakeFiles/edit_cache.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs/CMakeFiles/rebuild_cache.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs/CMakeFiles/list_install_components.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs/CMakeFiles/install.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs/CMakeFiles/install/local.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs/CMakeFiles/install/strip.dir

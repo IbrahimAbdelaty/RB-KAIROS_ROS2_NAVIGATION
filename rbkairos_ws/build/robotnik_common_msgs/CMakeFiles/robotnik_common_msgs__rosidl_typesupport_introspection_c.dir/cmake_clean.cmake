@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/msg/detail/response__type_support.c.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/msg/detail/response__type_support.c.o.d"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_bool__type_support.c.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_bool__type_support.c.o.d"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_float32__type_support.c.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_float32__type_support.c.o.d"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_float64__type_support.c.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_float64__type_support.c.o.d"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_int32__type_support.c.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_int32__type_support.c.o.d"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_string__type_support.c.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_string__type_support.c.o.d"
+  "librobotnik_common_msgs__rosidl_typesupport_introspection_c.pdb"
+  "librobotnik_common_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/msg/detail/response__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/msg/detail/response__type_support.c"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_bool__type_support.c"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_float32__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_float32__type_support.c"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_float64__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_float64__type_support.c"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_int32__type_support.c"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robotnik_common_msgs/srv/detail/set_string__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/robotnik_common_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

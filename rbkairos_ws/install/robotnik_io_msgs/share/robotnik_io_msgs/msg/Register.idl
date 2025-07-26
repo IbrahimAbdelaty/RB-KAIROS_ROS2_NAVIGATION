@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotnik_io_msgs/msg/Register.msg
+// generated code does not contain a copyright notice
+
+
+module robotnik_io_msgs {
+  module msg {
+    struct Register {
+      int32 address;
+
+      int32 value;
+    };
+  };
+};

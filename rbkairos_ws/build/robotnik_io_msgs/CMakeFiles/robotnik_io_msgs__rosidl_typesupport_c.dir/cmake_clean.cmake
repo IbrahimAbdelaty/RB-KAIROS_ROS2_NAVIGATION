@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/analog_io__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/analog_io__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/digital_io__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/digital_io__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/inputs_outputs__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/inputs_outputs__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/register__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/register__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/register_array__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/msg/register_array__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/get_registers__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/get_registers__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_analog_output__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_analog_output__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_analog_output_array__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_analog_output_array__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_digital_output__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_digital_output__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_digital_output_array__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_digital_output_array__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_registers__type_support.cpp.o"
+  "CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_io_msgs/srv/set_registers__type_support.cpp.o.d"
+  "librobotnik_io_msgs__rosidl_typesupport_c.pdb"
+  "librobotnik_io_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/robotnik_io_msgs/msg/analog_io__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_io_msgs/msg/digital_io__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_io_msgs/msg/inputs_outputs__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_io_msgs/msg/register__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_io_msgs/msg/register_array__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_io_msgs/srv/get_registers__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_io_msgs/srv/set_analog_output__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_io_msgs/srv/set_analog_output_array__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_io_msgs/srv/set_digital_output__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_io_msgs/srv/set_digital_output_array__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_io_msgs/srv/set_registers__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robotnik_io_msgs__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

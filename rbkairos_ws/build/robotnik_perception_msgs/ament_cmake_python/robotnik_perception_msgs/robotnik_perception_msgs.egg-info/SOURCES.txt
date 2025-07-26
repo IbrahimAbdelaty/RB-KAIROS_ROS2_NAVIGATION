@@ -1,0 +1,9 @@
+setup.py
+robotnik_perception_msgs/__init__.py
+robotnik_perception_msgs.egg-info/PKG-INFO
+robotnik_perception_msgs.egg-info/SOURCES.txt
+robotnik_perception_msgs.egg-info/dependency_links.txt
+robotnik_perception_msgs.egg-info/top_level.txt
+robotnik_perception_msgs/msg/__init__.py
+robotnik_perception_msgs/msg/_detection.py
+robotnik_perception_msgs/msg/_detection_array.py

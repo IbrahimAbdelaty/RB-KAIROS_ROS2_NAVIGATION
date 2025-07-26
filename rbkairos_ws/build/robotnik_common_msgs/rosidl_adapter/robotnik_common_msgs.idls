@@ -1,0 +1,6 @@
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:msg/Response.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:srv/SetBool.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:srv/SetFloat32.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:srv/SetFloat64.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:srv/SetInt32.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:srv/SetString.idl

@@ -1,0 +1,12 @@
+msg/BatteryStatus.idl
+msg/BatteryStatus.msg
+msg/BatteryStatusStamped.idl
+msg/BatteryStatusStamped.msg
+msg/DockingStationStatus.idl
+msg/DockingStationStatus.msg
+msg/DockingStationStatusStamped.idl
+msg/DockingStationStatusStamped.msg
+msg/InverterStatus.idl
+msg/InverterStatus.msg
+msg/InverterStatusStamped.idl
+msg/InverterStatusStamped.msg

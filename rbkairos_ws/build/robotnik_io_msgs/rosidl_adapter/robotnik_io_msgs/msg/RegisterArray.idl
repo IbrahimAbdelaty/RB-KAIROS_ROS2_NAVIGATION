@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotnik_io_msgs/msg/RegisterArray.msg
+// generated code does not contain a copyright notice
+
+#include "robotnik_io_msgs/msg/Register.idl"
+
+module robotnik_io_msgs {
+  module msg {
+    struct RegisterArray {
+      sequence<robotnik_io_msgs::msg::Register> registers;
+    };
+  };
+};

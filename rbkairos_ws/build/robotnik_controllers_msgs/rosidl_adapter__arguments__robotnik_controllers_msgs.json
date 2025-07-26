@@ -1,0 +1,9 @@
+{
+  "package_name": "robotnik_controllers_msgs",
+  "non_idl_tuples": [
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_controllers_msgs:msg/ControllerState.msg",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_controllers_msgs:srv/AvailableKinematics.srv",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_controllers_msgs:srv/ChangeKinematics.srv",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_controllers_msgs:srv/SetOdometry.srv"
+  ]
+}

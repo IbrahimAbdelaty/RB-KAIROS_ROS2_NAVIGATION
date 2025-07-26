@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotnik_battery_msgs/msg/InverterStatus.msg
+// generated code does not contain a copyright notice
+
+
+module robotnik_battery_msgs {
+  module msg {
+    struct InverterStatus {
+      @verbatim (language="comment", text=
+        "Output Voltage in Volts (Mandatory)")
+      float ac_voltage;
+
+      @verbatim (language="comment", text=
+        "Input Voltage in Volts (If unmeasured NaN)")
+      float dc_voltage;
+
+      @verbatim (language="comment", text=
+        "Current percentage load on 0 to 1 range (If unmeasured NaN)")
+      float load;
+
+      @verbatim (language="comment", text=
+        "Charge percentage on 0 to 1 range (If unmeasured NaN)")
+      float percentage;
+
+      @verbatim (language="comment", text=
+        "Current temperature in centigrads (If unmeasured NaN)")
+      float temperature;
+
+      @verbatim (language="comment", text=
+        "True if the inverter is on")
+      boolean on;
+
+      @verbatim (language="comment", text=
+        "The best approximation of the battery serial number")
+      string serial_number;
+    };
+  };
+};

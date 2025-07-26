@@ -1,0 +1,9 @@
+/home/hima/bachelors/rbkairos_ws/build/mapping/CMakeFiles/uninstall.dir
+/home/hima/bachelors/rbkairos_ws/build/mapping/CMakeFiles/mapping_uninstall.dir
+/home/hima/bachelors/rbkairos_ws/build/mapping/CMakeFiles/test.dir
+/home/hima/bachelors/rbkairos_ws/build/mapping/CMakeFiles/edit_cache.dir
+/home/hima/bachelors/rbkairos_ws/build/mapping/CMakeFiles/rebuild_cache.dir
+/home/hima/bachelors/rbkairos_ws/build/mapping/CMakeFiles/list_install_components.dir
+/home/hima/bachelors/rbkairos_ws/build/mapping/CMakeFiles/install.dir
+/home/hima/bachelors/rbkairos_ws/build/mapping/CMakeFiles/install/local.dir
+/home/hima/bachelors/rbkairos_ws/build/mapping/CMakeFiles/install/strip.dir

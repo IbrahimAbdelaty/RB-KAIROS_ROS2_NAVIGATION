@@ -1,0 +1,348 @@
+[0.030s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_controllers_msgs -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.208s] -- The CXX compiler identification is GNU 11.4.0
+[0.224s] -- Detecting C compiler ABI info
+[0.314s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.326s] -- Detecting C compile features
+[0.326s] -- Detecting C compile features - done
+[0.331s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.430s] -- Detecting CXX compile features
+[0.431s] -- Detecting CXX compile features - done
+[0.436s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.656s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.783s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.838s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.847s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.860s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.892s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.908s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.918s] -- Found robotnik_common_msgs: 1.0.0 (/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake)
+[0.931s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.284s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.289s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.294s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.299s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.727s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.880s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.904s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.906s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.932s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.932s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.932s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.932s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.963s] -- Found PythonExtra: .so  
+[2.032s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.035s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.038s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.052s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.052s] -- Added test 'lint_cmake' to check CMake code style
+[2.053s] -- Added test 'xmllint' to check XML markup files
+[2.056s] -- Configuring done
+[2.093s] -- Generating done
+[2.106s] -- Build files have been written to: /home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs
+[2.119s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_controllers_msgs -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs
+[2.120s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs -- -j16 -l16
+[2.182s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.197s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.204s] [  3%] Built target ament_cmake_python_copy_robotnik_controllers_msgs
+[2.510s] running egg_info
+[2.511s] creating robotnik_controllers_msgs.egg-info
+[2.511s] writing robotnik_controllers_msgs.egg-info/PKG-INFO
+[2.511s] writing dependency_links to robotnik_controllers_msgs.egg-info/dependency_links.txt
+[2.511s] writing top-level names to robotnik_controllers_msgs.egg-info/top_level.txt
+[2.512s] writing manifest file 'robotnik_controllers_msgs.egg-info/SOURCES.txt'
+[2.516s] reading manifest file 'robotnik_controllers_msgs.egg-info/SOURCES.txt'
+[2.517s] writing manifest file 'robotnik_controllers_msgs.egg-info/SOURCES.txt'
+[2.549s] [  3%] Built target ament_cmake_python_build_robotnik_controllers_msgs_egg
+[2.999s] [  3%] Built target robotnik_controllers_msgs__cpp
+[3.029s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.029s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.029s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.092s] [ 10%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_controllers_msgs/srv/detail/available_kinematics__functions.c.o[0m
+[3.092s] [ 12%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_controllers_msgs/msg/detail/controller_state__functions.c.o[0m
+[3.095s] [ 14%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_controllers_msgs/srv/detail/change_kinematics__functions.c.o[0m
+[3.103s] [ 16%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_controllers_msgs/srv/detail/set_odometry__functions.c.o[0m
+[3.228s] [ 18%] [32m[1mLinking C shared library librobotnik_controllers_msgs__rosidl_generator_c.so[0m
+[3.305s] [ 18%] Built target robotnik_controllers_msgs__rosidl_generator_c
+[3.325s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.338s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.343s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.755s] [ 27%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_controllers_msgs/srv/set_odometry__type_support.cpp.o[0m
+[3.755s] [ 27%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_controllers_msgs/msg/controller_state__type_support.cpp.o[0m
+[3.762s] [ 29%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_controllers_msgs/srv/available_kinematics__type_support.cpp.o[0m
+[3.766s] [ 30%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_controllers_msgs/srv/change_kinematics__type_support.cpp.o[0m
+[4.042s] [ 34%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_controllers_msgs/msg/detail/controller_state__type_support.cpp.o[0m
+[4.044s] [ 34%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_controllers_msgs/srv/detail/available_kinematics__type_support.cpp.o[0m
+[4.047s] [ 36%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_controllers_msgs/srv/detail/change_kinematics__type_support.cpp.o[0m
+[4.050s] [ 38%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_controllers_msgs/srv/detail/set_odometry__type_support.cpp.o[0m
+[4.342s] [ 40%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_controllers_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o[0m
+[4.342s] [ 41%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_controllers_msgs/srv/detail/dds_fastrtps/available_kinematics__type_support.cpp.o[0m
+[4.365s] [ 43%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_controllers_msgs/srv/detail/dds_fastrtps/set_odometry__type_support.cpp.o[0m
+[4.365s] [ 45%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_controllers_msgs/srv/detail/dds_fastrtps/change_kinematics__type_support.cpp.o[0m
+[4.688s] [ 47%] [32m[1mLinking CXX shared library librobotnik_controllers_msgs__rosidl_typesupport_cpp.so[0m
+[4.826s] [ 47%] Built target robotnik_controllers_msgs__rosidl_typesupport_cpp
+[4.907s] [ 49%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/msg/controller_state__type_support.cpp.o[0m
+[4.915s] [ 50%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/srv/set_odometry__type_support.cpp.o[0m
+[4.922s] [ 52%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/srv/available_kinematics__type_support.cpp.o[0m
+[4.924s] [ 54%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_controllers_msgs/srv/change_kinematics__type_support.cpp.o[0m
+[5.093s] [ 56%] [32m[1mLinking CXX shared library librobotnik_controllers_msgs__rosidl_typesupport_c.so[0m
+[5.109s] [ 58%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_controllers_msgs/msg/detail/controller_state__type_support.c.o[0m
+[5.114s] [ 60%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_controllers_msgs/srv/detail/available_kinematics__type_support.c.o[0m
+[5.124s] [ 61%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_controllers_msgs/srv/detail/change_kinematics__type_support.c.o[0m
+[5.136s] [ 63%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_controllers_msgs/srv/detail/set_odometry__type_support.c.o[0m
+[5.304s] [ 63%] Built target robotnik_controllers_msgs__rosidl_typesupport_c
+[5.307s] [ 65%] [32m[1mLinking C shared library librobotnik_controllers_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.390s] [ 67%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_controllers_msgs/msg/detail/controller_state__type_support_c.cpp.o[0m
+[5.390s] [ 69%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_controllers_msgs/srv/detail/available_kinematics__type_support_c.cpp.o[0m
+[5.391s] [ 70%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_controllers_msgs/srv/detail/change_kinematics__type_support_c.cpp.o[0m
+[5.403s] [ 72%] [32mBuilding CXX object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_controllers_msgs/srv/detail/set_odometry__type_support_c.cpp.o[0m
+[5.418s] [ 72%] Built target robotnik_controllers_msgs__rosidl_typesupport_introspection_c
+[5.776s] [ 74%] [32m[1mLinking CXX shared library librobotnik_controllers_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.250s] [ 74%] Built target robotnik_controllers_msgs__rosidl_typesupport_introspection_cpp
+[6.366s] [ 76%] [32m[1mLinking CXX shared library librobotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.904s] [ 76%] Built target robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp
+[10.711s] [ 78%] [32m[1mLinking CXX shared library librobotnik_controllers_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.319s] [ 78%] Built target robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c
+[11.437s] [ 78%] Built target robotnik_controllers_msgs
+[11.518s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.878s] [ 80%] Built target robotnik_controllers_msgs__py
+[13.934s] [ 81%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_controllers_msgs/srv/_change_kinematics_s.c.o[0m
+[13.934s] [ 83%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_controllers_msgs/srv/_set_odometry_s.c.o[0m
+[13.938s] [ 85%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_controllers_msgs/msg/_controller_state_s.c.o[0m
+[13.941s] [ 87%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_controllers_msgs/srv/_available_kinematics_s.c.o[0m
+[14.342s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_controllers_msgs/librobotnik_controllers_msgs__rosidl_generator_py.so[0m
+[14.453s] [ 89%] Built target robotnik_controllers_msgs__rosidl_generator_py
+[14.547s] [ 90%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robotnik_controllers_msgs/_robotnik_controllers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.571s] [ 92%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robotnik_controllers_msgs/_robotnik_controllers_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.591s] [ 94%] [32mBuilding C object CMakeFiles/robotnik_controllers_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robotnik_controllers_msgs/_robotnik_controllers_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.718s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.881s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[14.904s] [ 98%] Built target robotnik_controllers_msgs__rosidl_typesupport_c__pyext
+[14.955s] [ 98%] Built target robotnik_controllers_msgs__rosidl_typesupport_introspection_c__pyext
+[15.356s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.627s] [100%] Built target robotnik_controllers_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.698s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs -- -j16 -l16
+[15.705s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs
+[15.753s] -- Install configuration: ""
+[15.754s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/ament_index/resource_index/rosidl_interfaces/robotnik_controllers_msgs
+[15.756s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs
+[15.758s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv
+[15.760s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/set_odometry.h
+[15.761s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/available_kinematics.h
+[15.763s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/change_kinematics.h
+[15.764s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail
+[15.764s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__type_support.h
+[15.765s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__type_support.h
+[15.766s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__struct.h
+[15.766s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__functions.c
+[15.767s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__functions.h
+[15.768s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__functions.h
+[15.768s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__functions.h
+[15.769s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__struct.h
+[15.769s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__functions.c
+[15.770s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__struct.h
+[15.770s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__functions.c
+[15.771s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__type_support.h
+[15.771s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg
+[15.772s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/controller_state.h
+[15.772s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail
+[15.773s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__functions.h
+[15.773s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__functions.c
+[15.774s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__struct.h
+[15.775s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__type_support.h
+[15.775s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.776s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/environment/library_path.sh
+[15.776s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/environment/library_path.dsv
+[15.777s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_generator_c.so
+[15.780s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_generator_c.so" to ""
+[15.781s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs
+[15.782s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv
+[15.782s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail
+[15.784s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__rosidl_typesupport_fastrtps_c.h
+[15.786s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__rosidl_typesupport_fastrtps_c.h
+[15.787s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__rosidl_typesupport_fastrtps_c.h
+[15.789s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg
+[15.790s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.792s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail
+[15.792s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[15.793s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_fastrtps_c.so
+[15.793s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[15.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs
+[15.794s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv
+[15.795s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/available_kinematics.hpp
+[15.795s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/change_kinematics.hpp
+[15.796s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail
+[15.796s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__type_support.hpp
+[15.797s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__traits.hpp
+[15.797s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__traits.hpp
+[15.798s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__traits.hpp
+[15.798s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__type_support.hpp
+[15.799s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__type_support.hpp
+[15.799s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__struct.hpp
+[15.800s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__builder.hpp
+[15.801s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__struct.hpp
+[15.801s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__struct.hpp
+[15.803s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__builder.hpp
+[15.803s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__builder.hpp
+[15.804s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/set_odometry.hpp
+[15.804s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg
+[15.805s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.805s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail
+[15.806s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__type_support.hpp
+[15.807s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__traits.hpp
+[15.807s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__struct.hpp
+[15.808s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__builder.hpp
+[15.808s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/controller_state.hpp
+[15.808s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs
+[15.808s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv
+[15.808s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail
+[15.808s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__rosidl_typesupport_fastrtps_cpp.hpp
+[15.808s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__rosidl_typesupport_fastrtps_cpp.hpp
+[15.808s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/dds_fastrtps
+[15.808s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[15.808s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg
+[15.808s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.809s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/dds_fastrtps
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.809s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.809s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs
+[15.809s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv
+[15.809s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__type_support.c
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__rosidl_typesupport_introspection_c.h
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__type_support.c
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__rosidl_typesupport_introspection_c.h
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__type_support.c
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__rosidl_typesupport_introspection_c.h
+[15.809s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.809s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__type_support.c
+[15.809s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_introspection_c.so
+[15.809s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_c.so
+[15.810s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_c.so" to ""
+[15.810s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs
+[15.810s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv
+[15.810s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__rosidl_typesupport_introspection_cpp.hpp
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/change_kinematics__type_support.cpp
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__type_support.cpp
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__rosidl_typesupport_introspection_cpp.hpp
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/set_odometry__type_support.cpp
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/srv/detail/available_kinematics__rosidl_typesupport_introspection_cpp.hpp
+[15.810s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg
+[15.810s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/include/robotnik_controllers_msgs/robotnik_controllers_msgs/msg/detail/controller_state__type_support.cpp
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_introspection_cpp.so
+[15.810s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_cpp.so
+[15.810s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_typesupport_cpp.so" to ""
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/environment/pythonpath.sh
+[15.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/environment/pythonpath.dsv
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs-1.0.0-py3.10.egg-info
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/_robotnik_controllers_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/_robotnik_controllers_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/_set_odometry.py
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/_change_kinematics_s.c
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/_available_kinematics_s.c
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/_available_kinematics.py
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/__init__.py
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/_set_odometry_s.c
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/_change_kinematics.py
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/_robotnik_controllers_msgs_s.ep.rosidl_typesupport_c.c
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/msg
+[15.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/msg/_controller_state.py
+[15.812s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/msg/__init__.py
+[15.812s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/msg/_controller_state_s.c
+[15.812s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/__init__.py
+[15.812s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/librobotnik_controllers_msgs__rosidl_generator_py.so
+[15.812s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.117s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs'...
+[16.118s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/__init__.py'...
+[16.119s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/msg'...
+[16.120s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/msg/__init__.py'...
+[16.121s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/msg/_controller_state.py'...
+[16.121s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv'...
+[16.122s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/__init__.py'...
+[16.123s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/_available_kinematics.py'...
+[16.124s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/_change_kinematics.py'...
+[16.125s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/srv/_set_odometry.py'...
+[16.150s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.152s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.154s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.156s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.158s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.162s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/local/lib/python3.10/dist-packages/robotnik_controllers_msgs/robotnik_controllers_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[16.162s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_generator_py.so
+[16.164s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib/librobotnik_controllers_msgs__rosidl_generator_py.so" to ""
+[16.165s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/msg/ControllerState.idl
+[16.166s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/AvailableKinematics.idl
+[16.167s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/ChangeKinematics.idl
+[16.168s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/SetOdometry.idl
+[16.169s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/msg/ControllerState.msg
+[16.170s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/AvailableKinematics.srv
+[16.171s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/AvailableKinematics_Request.msg
+[16.172s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/AvailableKinematics_Response.msg
+[16.172s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/ChangeKinematics.srv
+[16.173s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/ChangeKinematics_Request.msg
+[16.174s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/ChangeKinematics_Response.msg
+[16.174s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/SetOdometry.srv
+[16.176s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/SetOdometry_Request.msg
+[16.176s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/srv/SetOdometry_Response.msg
+[16.177s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/ament_index/resource_index/package_run_dependencies/robotnik_controllers_msgs
+[16.179s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/ament_index/resource_index/parent_prefix_path/robotnik_controllers_msgs
+[16.180s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/environment/ament_prefix_path.sh
+[16.181s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/environment/ament_prefix_path.dsv
+[16.182s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/environment/path.sh
+[16.183s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/environment/path.dsv
+[16.184s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/local_setup.bash
+[16.185s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/local_setup.sh
+[16.186s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/local_setup.zsh
+[16.187s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/local_setup.dsv
+[16.187s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/package.dsv
+[16.188s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/ament_index/resource_index/packages/robotnik_controllers_msgs
+[16.189s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/export_robotnik_controllers_msgs__rosidl_generator_cExport.cmake
+[16.190s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/export_robotnik_controllers_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.191s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/export_robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.191s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/export_robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.193s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/export_robotnik_controllers_msgs__rosidl_generator_cppExport.cmake
+[16.194s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/export_robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.195s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/export_robotnik_controllers_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.196s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/robotnik_controllers_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.197s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/robotnik_controllers_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.198s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/robotnik_controllers_msgs__rosidl_typesupport_cExport.cmake
+[16.199s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/robotnik_controllers_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.200s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/robotnik_controllers_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.200s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/robotnik_controllers_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.201s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/robotnik_controllers_msgs__rosidl_typesupport_cppExport.cmake
+[16.202s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/robotnik_controllers_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.203s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/export_robotnik_controllers_msgs__rosidl_generator_pyExport.cmake
+[16.205s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/export_robotnik_controllers_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.206s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/rosidl_cmake-extras.cmake
+[16.207s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.208s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.209s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.210s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.211s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.212s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.212s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/robotnik_controllers_msgsConfig.cmake
+[16.213s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/cmake/robotnik_controllers_msgsConfig-version.cmake
+[16.214s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/share/robotnik_controllers_msgs/package.xml
+[16.229s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robotnik_navigation_msgs/action/Move.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "robotnik_common_msgs/msg/Response.idl"
+
+module robotnik_navigation_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct Move_Goal {
+      geometry_msgs::msg::Pose2D goal;
+
+      geometry_msgs::msg::Twist maximum_velocity;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct Move_Result {
+      robotnik_common_msgs::msg::Response response;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Move_Feedback {
+      geometry_msgs::msg::Pose2D remaining;
+
+      geometry_msgs::msg::Twist current_velocity;
+    };
+  };
+};

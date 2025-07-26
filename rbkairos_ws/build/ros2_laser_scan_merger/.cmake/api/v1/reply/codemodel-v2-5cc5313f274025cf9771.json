@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-78c62726fddbd0d70bae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_laser_scan_merger",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_laser_scan_merger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_laser_scan_merger-ba487aa1f3fc6503aeb5.json",
+					"name" : "ros2_laser_scan_merger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_laser_scan_merger_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_laser_scan_merger_uninstall-d23ebcd75abffbaa1eb6.json",
+					"name" : "ros2_laser_scan_merger_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1282725cf07c8bb3b5fb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hima/bachelors/rbkairos_ws/build/ros2_laser_scan_merger",
+		"source" : "/home/hima/bachelors/rbkairos_ws/src/merge_scan"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

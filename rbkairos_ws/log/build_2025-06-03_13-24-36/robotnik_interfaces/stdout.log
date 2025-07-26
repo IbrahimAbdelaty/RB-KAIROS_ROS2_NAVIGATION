@@ -1,0 +1,25 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hima/bachelors/rbkairos_ws/build/robotnik_interfaces
+-- Install configuration: ""
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/ament_index/resource_index/package_run_dependencies/robotnik_interfaces
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/ament_index/resource_index/parent_prefix_path/robotnik_interfaces
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/environment/path.sh
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/environment/path.dsv
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/local_setup.bash
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/local_setup.sh
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/local_setup.zsh
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/local_setup.dsv
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/package.dsv
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/ament_index/resource_index/packages/robotnik_interfaces
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/cmake/robotnik_interfacesConfig.cmake
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/cmake/robotnik_interfacesConfig-version.cmake
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces/share/robotnik_interfaces/package.xml

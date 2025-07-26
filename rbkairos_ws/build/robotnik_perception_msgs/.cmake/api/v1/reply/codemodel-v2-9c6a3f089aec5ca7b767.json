@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-54a5773d7025f3ffd2db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robotnik_perception_msgs__py",
+					"jsonFile" : "directory-robotnik_perception_msgs__py-4d0f0bfb3e11239b40cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs/robotnik_perception_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robotnik_perception_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robotnik_perception_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robotnik_perception_msgs_egg-12e8e58c661f9dc62e14.json",
+					"name" : "ament_cmake_python_build_robotnik_perception_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robotnik_perception_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robotnik_perception_msgs-c739a20d2dee02652117.json",
+					"name" : "ament_cmake_python_copy_robotnik_perception_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs-01d335b5fc7ead741d56.json",
+					"name" : "robotnik_perception_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__cpp-6839962597a2c6ba45f0.json",
+					"name" : "robotnik_perception_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robotnik_perception_msgs__py::@0d2c0e2ca94df3252875",
+					"jsonFile" : "target-robotnik_perception_msgs__py-41119d89d147ad1f54c3.json",
+					"name" : "robotnik_perception_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_generator_c-6c1f531e5f7677a8beda.json",
+					"name" : "robotnik_perception_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_generator_py-eb4b8151d86b5059817d.json",
+					"name" : "robotnik_perception_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_typesupport_c-e8163ef789927d0e816f.json",
+					"name" : "robotnik_perception_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_typesupport_c__pyext-d28679749f1dbe9fe1f3.json",
+					"name" : "robotnik_perception_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_typesupport_cpp-83673ed185c6895b3d62.json",
+					"name" : "robotnik_perception_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_typesupport_fastrtps_c-fe4f03a814aac458904a.json",
+					"name" : "robotnik_perception_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_typesupport_fastrtps_c__pyext-3879d3f0cbfb14e5754d.json",
+					"name" : "robotnik_perception_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_typesupport_fastrtps_cpp-a5e891f493315990ac13.json",
+					"name" : "robotnik_perception_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_typesupport_introspection_c-e6f929344bb094a8b335.json",
+					"name" : "robotnik_perception_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_typesupport_introspection_c__pyext-bf08248c8be5f2470390.json",
+					"name" : "robotnik_perception_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs__rosidl_typesupport_introspection_cpp-e8a12cb1b6782de4bed7.json",
+					"name" : "robotnik_perception_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotnik_perception_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotnik_perception_msgs_uninstall-c3270f5b0dd83762c2dc.json",
+					"name" : "robotnik_perception_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-26e538af3f4919d4259e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs",
+		"source" : "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_perception_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

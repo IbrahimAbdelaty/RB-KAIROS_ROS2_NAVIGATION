@@ -1,0 +1,9 @@
+setup.py
+robotnik_navigation_msgs/__init__.py
+robotnik_navigation_msgs.egg-info/PKG-INFO
+robotnik_navigation_msgs.egg-info/SOURCES.txt
+robotnik_navigation_msgs.egg-info/dependency_links.txt
+robotnik_navigation_msgs.egg-info/top_level.txt
+robotnik_navigation_msgs/action/__init__.py
+robotnik_navigation_msgs/action/_dock.py
+robotnik_navigation_msgs/action/_move.py

@@ -1,0 +1,39 @@
+[0.033s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/ros2_laser_scan_merger -- -j16 -l16
+[0.306s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_laser_scan_merger.dir/src/main.cpp.o[0m
+[19.545s] [01m[K/home/hima/bachelors/rbkairos_ws/src/merge_scan/src/main.cpp:[m[K In member function ‘[01m[Kvoid scanMerger::update_point_cloud_rgb()[m[K’:
+[19.545s] [01m[K/home/hima/bachelors/rbkairos_ws/src/merge_scan/src/main.cpp:76:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[19.545s]    76 |       for (float i = temp_min_; i <= temp_max_ && [01;35m[Kcount < laser1_->ranges.size()[m[K;
+[19.545s]       |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.546s] [01m[K/home/hima/bachelors/rbkairos_ws/src/merge_scan/src/main.cpp:157:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[19.546s]   157 |       for (float i = temp_min_; i <= temp_max_ && [01;35m[Kcount < laser2_->ranges.size()[m[K;
+[19.546s]       |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[28.178s] [100%] [32m[1mLinking CXX executable ros2_laser_scan_merger[0m
+[29.155s] [100%] Built target ros2_laser_scan_merger
+[29.178s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/ros2_laser_scan_merger -- -j16 -l16
+[29.183s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/ros2_laser_scan_merger': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/ros2_laser_scan_merger
+[29.199s] -- Install configuration: ""
+[29.199s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch
+[29.200s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/merge_2_scan.launch.py
+[29.200s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/launch/visualize_merge_2_scan.launch.py
+[29.200s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config
+[29.201s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/config/params.yaml
+[29.201s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz
+[29.201s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/rviz/ros2_laser_scan_merge.rviz
+[29.202s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/lib/ros2_laser_scan_merger/ros2_laser_scan_merger
+[29.205s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/lib/ros2_laser_scan_merger/ros2_laser_scan_merger" to ""
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ament_index/resource_index/package_run_dependencies/ros2_laser_scan_merger
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ament_index/resource_index/parent_prefix_path/ros2_laser_scan_merger
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.sh
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/ament_prefix_path.dsv
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.sh
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/environment/path.dsv
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.bash
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.sh
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.zsh
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/local_setup.dsv
+[29.206s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.dsv
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ament_index/resource_index/packages/ros2_laser_scan_merger
+[29.206s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig.cmake
+[29.207s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/cmake/ros2_laser_scan_mergerConfig-version.cmake
+[29.207s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger/share/ros2_laser_scan_merger/package.xml
+[29.212s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/ros2_laser_scan_merger' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/ros2_laser_scan_merger

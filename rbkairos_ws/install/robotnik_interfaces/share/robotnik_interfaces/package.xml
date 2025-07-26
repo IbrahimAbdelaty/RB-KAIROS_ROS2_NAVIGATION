@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robotnik_interfaces</name>
+  <version>1.0.0</version>
+  <description>Metapackage of message definitions for the Robotnik stack</description>
+
+  <maintainer email="support@robotnik.es">Robotnik Automation</maintainer>
+  <license>BSD</license>
+  <author email="info@robotnik.es">Robotnik Automation</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>builtin_interfaces</exec_depend>
+  <exec_depend>robotnik_battery_msgs</exec_depend>
+  <exec_depend>robotnik_common_msgs</exec_depend>
+  <exec_depend>robotnik_controllers_msgs</exec_depend>
+  <exec_depend>robotnik_io_msgs</exec_depend>
+  <exec_depend>robotnik_navigation_msgs</exec_depend>
+  <exec_depend>robotnik_safety_msgs</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,43 @@
+[0.063s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_common -- -j16 -l16
+[0.314s] Built target ament_cmake_python_copy_robotnik_common
+[1.335s] running egg_info
+[1.336s] writing robotnik_common.egg-info/PKG-INFO
+[1.337s] writing dependency_links to robotnik_common.egg-info/dependency_links.txt
+[1.337s] writing top-level names to robotnik_common.egg-info/top_level.txt
+[1.342s] reading manifest file 'robotnik_common.egg-info/SOURCES.txt'
+[1.342s] writing manifest file 'robotnik_common.egg-info/SOURCES.txt'
+[1.402s] Built target ament_cmake_python_build_robotnik_common_egg
+[1.463s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_common -- -j16 -l16
+[1.465s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_common
+[1.476s] -- Install configuration: ""
+[1.477s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/environment/pythonpath.sh
+[1.478s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/environment/pythonpath.dsv
+[1.478s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common-1.1.0-py3.10.egg-info
+[1.478s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common-1.1.0-py3.10.egg-info/top_level.txt
+[1.479s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common-1.1.0-py3.10.egg-info/PKG-INFO
+[1.479s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common-1.1.0-py3.10.egg-info/SOURCES.txt
+[1.479s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common-1.1.0-py3.10.egg-info/dependency_links.txt
+[1.480s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common
+[1.480s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common/launch
+[1.480s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common/launch/rewritten_yaml.py
+[1.480s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common/launch/add_launch_args.py
+[1.481s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common/launch/__init__.py
+[1.481s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common/__init__.py
+[1.659s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common'...
+[1.662s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_common/local/lib/python3.10/dist-packages/robotnik_common/launch'...
+[1.687s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/ament_index/resource_index/package_run_dependencies/robotnik_common
+[1.689s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/ament_index/resource_index/parent_prefix_path/robotnik_common
+[1.690s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/environment/ament_prefix_path.sh
+[1.691s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/environment/ament_prefix_path.dsv
+[1.693s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/environment/path.sh
+[1.693s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/environment/path.dsv
+[1.694s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/local_setup.bash
+[1.695s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/local_setup.sh
+[1.705s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/local_setup.zsh
+[1.705s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/local_setup.dsv
+[1.705s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/package.dsv
+[1.705s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/ament_index/resource_index/packages/robotnik_common
+[1.705s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/cmake/robotnik_commonConfig.cmake
+[1.705s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/cmake/robotnik_commonConfig-version.cmake
+[1.705s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common/share/robotnik_common/package.xml
+[1.706s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_common

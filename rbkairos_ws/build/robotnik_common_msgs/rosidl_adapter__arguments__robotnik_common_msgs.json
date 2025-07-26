@@ -1,0 +1,11 @@
+{
+  "package_name": "robotnik_common_msgs",
+  "non_idl_tuples": [
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_common_msgs:msg/Response.msg",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_common_msgs:srv/SetBool.srv",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_common_msgs:srv/SetFloat32.srv",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_common_msgs:srv/SetFloat64.srv",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_common_msgs:srv/SetInt32.srv",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_common_msgs:srv/SetString.srv"
+  ]
+}

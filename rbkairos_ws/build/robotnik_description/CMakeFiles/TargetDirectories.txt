@@ -1,0 +1,9 @@
+/home/hima/bachelors/rbkairos_ws/build/robotnik_description/CMakeFiles/uninstall.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_description/CMakeFiles/robotnik_description_uninstall.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_description/CMakeFiles/test.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_description/CMakeFiles/edit_cache.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_description/CMakeFiles/rebuild_cache.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_description/CMakeFiles/list_install_components.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_description/CMakeFiles/install.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_description/CMakeFiles/install/local.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_description/CMakeFiles/install/strip.dir

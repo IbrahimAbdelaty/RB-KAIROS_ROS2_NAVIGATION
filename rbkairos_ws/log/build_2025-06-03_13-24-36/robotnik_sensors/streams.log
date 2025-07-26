@@ -1,0 +1,232 @@
+[0.016s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/robotnik_sensors/robotnik_sensors -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.145s] -- The CXX compiler identification is GNU 11.4.0
+[0.153s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.234s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.234s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.323s] -- Detecting CXX compiler ABI info - done
+[0.330s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.331s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.506s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.612s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.615s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[4.399s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.464s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.473s] -- Added test 'lint_cmake' to check CMake code style
+[4.477s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.507s] -- Added test 'xmllint' to check XML markup files
+[4.519s] -- Configuring done
+[4.527s] -- Generating done
+[4.531s] -- Build files have been written to: /home/hima/bachelors/rbkairos_ws/build/robotnik_sensors
+[4.547s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/robotnik_sensors/robotnik_sensors -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors
+[4.548s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_sensors -- -j16 -l16
+[4.695s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_sensors -- -j16 -l16
+[4.705s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_sensors
+[4.725s] -- Install configuration: ""
+[4.725s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes
+[4.728s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/intel_r430.dae
+[4.729s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/sick_mls.stl
+[4.731s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/axis_m5525.stl
+[4.732s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/axis_q8641_n2-1.STL
+[4.732s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/orbbec_astra_embedded_s.dae
+[4.750s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar
+[4.750s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/livox_mid_360.stl
+[4.755s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/robotsense
+[4.756s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/robotsense/helios_16p.stl
+[4.774s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/robotsense/bpearl.stl
+[4.787s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/robotsense/bpearl.dae
+[4.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/velodyne
+[4.810s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/velodyne/vlp16.dae
+[4.811s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/3d_lidar/velodyne/vlp16.stl
+[4.813s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/asus_xtion_pro_live.png
+[4.814s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinect.jpg
+[4.814s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/teraranger_tr_duo.stl
+[4.815s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/fotonic_e.stl
+[4.816s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/axis_m5525.dae
+[4.817s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/axis_q8641_n1-1.STL
+[4.820s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/benewake_ce30.stl
+[4.820s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rslidar_mems.stl
+[4.820s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo3d.dae
+[4.823s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_ust_10lx.dae
+[4.823s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rplidar_a2.stl
+[4.824s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/ydlidar_4f.png
+[4.830s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_urg_04lx.dae
+[4.832s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth
+[4.832s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/orbbec_astra
+[4.832s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/orbbec_astra/orbbec_astra.dae
+[4.833s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/orbbec_astra/orbbec_astra.stl
+[4.833s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/intel_realsense_d435
+[4.833s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/intel_realsense_d435/intel_d435_color.dae
+[4.928s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/intel_realsense_d435/intel_d435.dae
+[4.989s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/intel_realsense_d435/intel_d435.png
+[4.993s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/intel_realsense_d435/intel_d435.stl
+[5.032s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/stereolabs_zed
+[5.032s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/stereolabs_zed/zed.stl
+[5.033s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/stereolabs_zed/zedm.stl
+[5.033s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/depth/stereolabs_zed/zed2.stl
+[5.033s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/axis_p5514.stl
+[5.035s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/benewake_ce30d.stl
+[5.035s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rplidar_a2.dae
+[5.038s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinectv2.dae
+[5.042s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/axis_p5512.stl
+[5.043s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/ouster1.STL
+[5.044s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar
+[5.044s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick
+[5.045s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/s3000.dae
+[5.045s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/s300.stl
+[5.046s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/tim551.dae
+[5.046s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/microscan3.dae
+[5.064s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/s300.png
+[5.064s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/microscan3.stl
+[5.080s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/s300.dae
+[5.080s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/outdoorscan3.stl
+[5.089s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/nanoscan3.stl
+[5.093s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/tim571.dae
+[5.093s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/outdoorscan3.dae
+[5.112s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/tim571.stl
+[5.117s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/tim551.stl
+[5.120s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/2d_lidar/sick/s3000.stl
+[5.121s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/asus_xtion_pro_live.dae
+[5.121s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinectv2_nobase.stl
+[5.121s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/camera_axis_q8641.STL
+[5.121s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/benewake_ce30d.dae
+[5.121s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/gps
+[5.121s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/gps/antenna_3GO16.stl
+[5.124s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/gps/antenna_3GO16.dae
+[5.125s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/gps/antenna_ANN_MB.stl
+[5.125s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/intel_r430.stl
+[5.126s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo3d.stl
+[5.126s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/viper.stl
+[5.137s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/teraranger_tr_duo.dae
+[5.138s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo3d.jpg
+[5.142s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_utm_30lx.dae
+[5.142s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/axis_p5514.dae
+[5.143s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/viper.dae
+[5.153s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/axis_m5013.stl
+[5.153s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/ueye_cp_gige.dae
+[5.153s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinectv2.stl
+[5.153s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/pointgrey_bumblebee2.dae
+[5.154s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rslidar.stl
+[5.158s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinectv2_nobase.dae
+[5.158s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/imu
+[5.158s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/imu/vectornav_vn100.stl
+[5.159s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/lidar_mast.STL
+[5.160s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo.png
+[5.163s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinect.dae
+[5.164s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/yujin_yrl.stl
+[5.216s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/ydlidar_4f.dae
+[5.228s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rplidar.dae
+[5.236s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/axis_m5013.dae
+[5.236s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/rslidar.dae
+[5.237s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_ust_20lx.dae
+[5.240s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/axis_p5512.dae
+[5.240s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_utm_30lx.stl
+[5.241s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/hokuyo_urg_04lx.stl
+[5.241s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/kinect.tga
+[5.241s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/ueye_cp_gige.stl
+[5.245s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//meshes/orbbec_astra_embedded_s.stl
+[5.265s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf
+[5.265s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar
+[5.266s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/sick_multiscan_100.urdf.xacro
+[5.266s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/lidar_3d_plugin.urdf.xacro
+[5.266s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/robosense_helios_16p.urdf.xacro
+[5.267s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/velodyne_vlp16.urdf.xacro
+[5.267s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/livox_mid_360.urdf.xacro
+[5.267s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/robosense_bpearl.urdf.xacro
+[5.267s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/3d_lidar/ouster.urdf.xacro
+[5.267s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/utils
+[5.267s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/utils/inertia.urdf.xacro
+[5.268s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth
+[5.268s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/stereolabs_zed2i.urdf.xacro
+[5.268s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/stereolabs_zed2.urdf.xacro
+[5.268s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/irred_camera_plugin.urdf.xacro
+[5.268s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/orbbec_astra.urdf.xacro
+[5.268s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/intel_realsense_d435i.urdf.xacro
+[5.269s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/stereolabs_generic.urdf.xacro
+[5.269s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/azure_kinect.urdf.xacro
+[5.269s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/depth_camera_plugin.urdf.xacro
+[5.274s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/depth/intel_realsense_d435.urdf.xacro
+[5.274s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar
+[5.274s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/lidar_2d_plugin.urdf.xacro
+[5.274s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_s3000.urdf.xacro
+[5.275s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_s300.urdf.xacro
+[5.275s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_outdoorscan3.urdf.xacro
+[5.276s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_tim571.urdf.xacro
+[5.276s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_tim551.urdf.xacro
+[5.276s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_nanoscan3.urdf.xacro
+[5.276s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/hokuyo_ust10lx.urdf.xacro
+[5.276s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/hokuyo_ust20lx.urdf.xacro
+[5.277s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/hokuyo_utm30lx.urdf.xacro
+[5.277s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/sick_microscan3.urdf.xacro
+[5.277s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/2d_lidar/hokuyo_urg04lx.urdf.xacro
+[5.280s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps
+[5.280s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps/gps.urdf.xacro
+[5.281s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps/ublox_with_mast.urdf.xacro
+[5.281s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps/gps_plugin.urdf.xacro
+[5.281s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps/gps_with_mast.urdf.xacro
+[5.281s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/gps/ublox.urdf.xacro
+[5.281s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated
+[5.281s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/asus_xtion_pro.urdf.xacro
+[5.282s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/flir_ax8.urdf.xacro
+[5.282s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/pantilt.urdf.xacro
+[5.285s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/benewake_ce30.urdf.xacro
+[5.285s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/lidar_mast.urdf.xacro
+[5.286s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/axis.urdf.xacro
+[5.286s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/intel_d435.urdf.xacro
+[5.286s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/hokuyo3d.urdf.xacro
+[5.286s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/fotonic_e.urdf.xacro
+[5.286s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/sick_mls.urdf.xacro
+[5.286s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/rplidar.urdf.xacro
+[5.287s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/imu.urdf.xacro
+[5.287s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/rslidar.urdf.xacro
+[5.287s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/roboteq_mgs.urdf.xacro
+[5.287s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/benewake_ce30d.urdf.xacro
+[5.287s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/teraranger_tr_duo.urdf.xacro
+[5.293s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/axis_q8641.urdf.xacro
+[5.295s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/rslidar_mems.urdf.xacro
+[5.295s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/embedded_s.urdf.xacro
+[5.296s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/kinect.urdf.xacro
+[5.296s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/ydlidar_4f.urdf.xacro
+[5.296s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/ueye_cp_gige.urdf.xacro
+[5.296s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/zed2.urdf.xacro
+[5.297s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/rplidar_a2.urdf.xacro
+[5.297s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/zed.urdf.xacro
+[5.297s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/intel_r430.urdf.xacro
+[5.297s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/yujin_yrl.urdf.xacro
+[5.297s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/pointgrey_bumblebee2.urdf.xacro
+[5.297s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/rubedos_viper.urdf.xacro
+[5.297s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/imu_hector_plugin.urdf.xacro
+[5.298s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/deprecated/kinectv2.urdf.xacro
+[5.298s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/all_sensors.urdf.xacro
+[5.302s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/imu
+[5.302s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/imu/myahrs.urdf.xacro
+[5.302s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/imu/pixhawk.urdf.xacro
+[5.302s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/imu/vectornav.urdf.xacro
+[5.303s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/imu/imu_plugin.urdf.xacro
+[5.303s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera
+[5.303s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/axis_m5525.urdf.xacro
+[5.303s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/axis_m5526.urdf.xacro
+[5.303s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/axis_m5013.urdf.xacro
+[5.303s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/camera_plugin.urdf.xacro
+[5.304s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors//urdf/camera/axis_m5074.urdf.xacro
+[5.304s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/ament_index/resource_index/package_run_dependencies/robotnik_sensors
+[5.304s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/ament_index/resource_index/parent_prefix_path/robotnik_sensors
+[5.304s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/environment/ament_prefix_path.sh
+[5.306s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/environment/ament_prefix_path.dsv
+[5.310s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/environment/path.sh
+[5.311s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/environment/path.dsv
+[5.312s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/local_setup.bash
+[5.312s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/local_setup.sh
+[5.312s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/local_setup.zsh
+[5.312s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/local_setup.dsv
+[5.312s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/package.dsv
+[5.312s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/ament_index/resource_index/packages/robotnik_sensors
+[5.313s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/cmake/robotnik_sensorsConfig.cmake
+[5.313s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/cmake/robotnik_sensorsConfig-version.cmake
+[5.313s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_sensors/share/robotnik_sensors/package.xml
+[5.336s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_sensors

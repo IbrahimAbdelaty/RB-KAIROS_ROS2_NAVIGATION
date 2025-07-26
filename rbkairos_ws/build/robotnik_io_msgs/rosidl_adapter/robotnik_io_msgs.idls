@@ -1,0 +1,11 @@
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:msg/AnalogIO.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:msg/DigitalIO.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:msg/InputsOutputs.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:msg/RegisterArray.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:msg/Register.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:srv/GetRegisters.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:srv/SetAnalogOutput.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:srv/SetAnalogOutputArray.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:srv/SetDigitalOutput.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:srv/SetDigitalOutputArray.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_io_msgs/rosidl_adapter/robotnik_io_msgs:srv/SetRegisters.idl

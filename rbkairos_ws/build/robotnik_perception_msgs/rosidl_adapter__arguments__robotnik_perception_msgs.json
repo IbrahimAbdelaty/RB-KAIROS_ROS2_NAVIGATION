@@ -1,0 +1,7 @@
+{
+  "package_name": "robotnik_perception_msgs",
+  "non_idl_tuples": [
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_perception_msgs:msg/Detection.msg",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_perception_msgs:msg/DetectionArray.msg"
+  ]
+}

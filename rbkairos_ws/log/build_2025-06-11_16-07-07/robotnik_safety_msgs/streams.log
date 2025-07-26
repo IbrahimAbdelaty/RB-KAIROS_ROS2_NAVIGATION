@@ -1,0 +1,21 @@
+[0.054s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs -- -j16 -l16
+[0.141s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs -- -j16 -l16
+[0.142s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs
+[0.150s] -- Install configuration: ""
+[0.151s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/ament_index/resource_index/package_run_dependencies/robotnik_safety_msgs
+[0.151s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/ament_index/resource_index/parent_prefix_path/robotnik_safety_msgs
+[0.151s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/environment/ament_prefix_path.sh
+[0.152s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/environment/ament_prefix_path.dsv
+[0.152s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/environment/path.sh
+[0.153s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/environment/path.dsv
+[0.154s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/local_setup.bash
+[0.155s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/local_setup.sh
+[0.156s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/local_setup.zsh
+[0.157s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/local_setup.dsv
+[0.157s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/package.dsv
+[0.158s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/ament_index/resource_index/packages/robotnik_safety_msgs
+[0.159s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.162s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/cmake/robotnik_safety_msgsConfig.cmake
+[0.166s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/cmake/robotnik_safety_msgsConfig-version.cmake
+[0.170s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs/share/robotnik_safety_msgs/package.xml
+[0.254s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_safety_msgs

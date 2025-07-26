@@ -1,0 +1,276 @@
+// generated from rosidl_generator_cpp/resource/idl__traits.hpp.em
+// with input from robotnik_supervisor_msgs:srv/GetStackStatus.idl
+// generated code does not contain a copyright notice
+
+#ifndef ROBOTNIK_SUPERVISOR_MSGS__SRV__DETAIL__GET_STACK_STATUS__TRAITS_HPP_
+#define ROBOTNIK_SUPERVISOR_MSGS__SRV__DETAIL__GET_STACK_STATUS__TRAITS_HPP_
+
+#include <stdint.h>
+
+#include <sstream>
+#include <string>
+#include <type_traits>
+
+#include "robotnik_supervisor_msgs/srv/detail/get_stack_status__struct.hpp"
+#include "rosidl_runtime_cpp/traits.hpp"
+
+namespace robotnik_supervisor_msgs
+{
+
+namespace srv
+{
+
+inline void to_flow_style_yaml(
+  const GetStackStatus_Request & msg,
+  std::ostream & out)
+{
+  out << "{";
+  // member: name
+  {
+    out << "name: ";
+    rosidl_generator_traits::value_to_yaml(msg.name, out);
+  }
+  out << "}";
+}  // NOLINT(readability/fn_size)
+
+inline void to_block_style_yaml(
+  const GetStackStatus_Request & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: name
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "name: ";
+    rosidl_generator_traits::value_to_yaml(msg.name, out);
+    out << "\n";
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const GetStackStatus_Request & msg, bool use_flow_style = false)
+{
+  std::ostringstream out;
+  if (use_flow_style) {
+    to_flow_style_yaml(msg, out);
+  } else {
+    to_block_style_yaml(msg, out);
+  }
+  return out.str();
+}
+
+}  // namespace srv
+
+}  // namespace robotnik_supervisor_msgs
+
+namespace rosidl_generator_traits
+{
+
+[[deprecated("use robotnik_supervisor_msgs::srv::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const robotnik_supervisor_msgs::srv::GetStackStatus_Request & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  robotnik_supervisor_msgs::srv::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use robotnik_supervisor_msgs::srv::to_yaml() instead")]]
+inline std::string to_yaml(const robotnik_supervisor_msgs::srv::GetStackStatus_Request & msg)
+{
+  return robotnik_supervisor_msgs::srv::to_yaml(msg);
+}
+
+template<>
+inline const char * data_type<robotnik_supervisor_msgs::srv::GetStackStatus_Request>()
+{
+  return "robotnik_supervisor_msgs::srv::GetStackStatus_Request";
+}
+
+template<>
+inline const char * name<robotnik_supervisor_msgs::srv::GetStackStatus_Request>()
+{
+  return "robotnik_supervisor_msgs/srv/GetStackStatus_Request";
+}
+
+template<>
+struct has_fixed_size<robotnik_supervisor_msgs::srv::GetStackStatus_Request>
+  : std::integral_constant<bool, false> {};
+
+template<>
+struct has_bounded_size<robotnik_supervisor_msgs::srv::GetStackStatus_Request>
+  : std::integral_constant<bool, false> {};
+
+template<>
+struct is_message<robotnik_supervisor_msgs::srv::GetStackStatus_Request>
+  : std::true_type {};
+
+}  // namespace rosidl_generator_traits
+
+// Include directives for member types
+// Member 'response'
+#include "robotnik_common_msgs/msg/detail/response__traits.hpp"
+
+namespace robotnik_supervisor_msgs
+{
+
+namespace srv
+{
+
+inline void to_flow_style_yaml(
+  const GetStackStatus_Response & msg,
+  std::ostream & out)
+{
+  out << "{";
+  // member: response
+  {
+    out << "response: ";
+    to_flow_style_yaml(msg.response, out);
+    out << ", ";
+  }
+
+  // member: status
+  {
+    out << "status: ";
+    rosidl_generator_traits::value_to_yaml(msg.status, out);
+  }
+  out << "}";
+}  // NOLINT(readability/fn_size)
+
+inline void to_block_style_yaml(
+  const GetStackStatus_Response & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: response
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "response:\n";
+    to_block_style_yaml(msg.response, out, indentation + 2);
+  }
+
+  // member: status
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "status: ";
+    rosidl_generator_traits::value_to_yaml(msg.status, out);
+    out << "\n";
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const GetStackStatus_Response & msg, bool use_flow_style = false)
+{
+  std::ostringstream out;
+  if (use_flow_style) {
+    to_flow_style_yaml(msg, out);
+  } else {
+    to_block_style_yaml(msg, out);
+  }
+  return out.str();
+}
+
+}  // namespace srv
+
+}  // namespace robotnik_supervisor_msgs
+
+namespace rosidl_generator_traits
+{
+
+[[deprecated("use robotnik_supervisor_msgs::srv::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const robotnik_supervisor_msgs::srv::GetStackStatus_Response & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  robotnik_supervisor_msgs::srv::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use robotnik_supervisor_msgs::srv::to_yaml() instead")]]
+inline std::string to_yaml(const robotnik_supervisor_msgs::srv::GetStackStatus_Response & msg)
+{
+  return robotnik_supervisor_msgs::srv::to_yaml(msg);
+}
+
+template<>
+inline const char * data_type<robotnik_supervisor_msgs::srv::GetStackStatus_Response>()
+{
+  return "robotnik_supervisor_msgs::srv::GetStackStatus_Response";
+}
+
+template<>
+inline const char * name<robotnik_supervisor_msgs::srv::GetStackStatus_Response>()
+{
+  return "robotnik_supervisor_msgs/srv/GetStackStatus_Response";
+}
+
+template<>
+struct has_fixed_size<robotnik_supervisor_msgs::srv::GetStackStatus_Response>
+  : std::integral_constant<bool, false> {};
+
+template<>
+struct has_bounded_size<robotnik_supervisor_msgs::srv::GetStackStatus_Response>
+  : std::integral_constant<bool, false> {};
+
+template<>
+struct is_message<robotnik_supervisor_msgs::srv::GetStackStatus_Response>
+  : std::true_type {};
+
+}  // namespace rosidl_generator_traits
+
+namespace rosidl_generator_traits
+{
+
+template<>
+inline const char * data_type<robotnik_supervisor_msgs::srv::GetStackStatus>()
+{
+  return "robotnik_supervisor_msgs::srv::GetStackStatus";
+}
+
+template<>
+inline const char * name<robotnik_supervisor_msgs::srv::GetStackStatus>()
+{
+  return "robotnik_supervisor_msgs/srv/GetStackStatus";
+}
+
+template<>
+struct has_fixed_size<robotnik_supervisor_msgs::srv::GetStackStatus>
+  : std::integral_constant<
+    bool,
+    has_fixed_size<robotnik_supervisor_msgs::srv::GetStackStatus_Request>::value &&
+    has_fixed_size<robotnik_supervisor_msgs::srv::GetStackStatus_Response>::value
+  >
+{
+};
+
+template<>
+struct has_bounded_size<robotnik_supervisor_msgs::srv::GetStackStatus>
+  : std::integral_constant<
+    bool,
+    has_bounded_size<robotnik_supervisor_msgs::srv::GetStackStatus_Request>::value &&
+    has_bounded_size<robotnik_supervisor_msgs::srv::GetStackStatus_Response>::value
+  >
+{
+};
+
+template<>
+struct is_service<robotnik_supervisor_msgs::srv::GetStackStatus>
+  : std::true_type
+{
+};
+
+template<>
+struct is_service_request<robotnik_supervisor_msgs::srv::GetStackStatus_Request>
+  : std::true_type
+{
+};
+
+template<>
+struct is_service_response<robotnik_supervisor_msgs::srv::GetStackStatus_Response>
+  : std::true_type
+{
+};
+
+}  // namespace rosidl_generator_traits
+
+#endif  // ROBOTNIK_SUPERVISOR_MSGS__SRV__DETAIL__GET_STACK_STATUS__TRAITS_HPP_

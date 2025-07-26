@@ -1,0 +1,13 @@
+setup.py
+robotnik_battery_msgs/__init__.py
+robotnik_battery_msgs.egg-info/PKG-INFO
+robotnik_battery_msgs.egg-info/SOURCES.txt
+robotnik_battery_msgs.egg-info/dependency_links.txt
+robotnik_battery_msgs.egg-info/top_level.txt
+robotnik_battery_msgs/msg/__init__.py
+robotnik_battery_msgs/msg/_battery_status.py
+robotnik_battery_msgs/msg/_battery_status_stamped.py
+robotnik_battery_msgs/msg/_docking_station_status.py
+robotnik_battery_msgs/msg/_docking_station_status_stamped.py
+robotnik_battery_msgs/msg/_inverter_status.py
+robotnik_battery_msgs/msg/_inverter_status_stamped.py

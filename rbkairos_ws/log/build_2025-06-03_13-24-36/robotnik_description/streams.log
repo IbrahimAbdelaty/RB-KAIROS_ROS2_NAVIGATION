@@ -1,0 +1,198 @@
+[0.043s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_description': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/robotnik_description -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/robotnik_description
+[0.225s] -- The C compiler identification is GNU 11.4.0
+[0.463s] -- The CXX compiler identification is GNU 11.4.0
+[0.490s] -- Detecting C compiler ABI info
+[0.753s] -- Detecting C compiler ABI info - done
+[0.780s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.781s] -- Detecting C compile features
+[0.786s] -- Detecting C compile features - done
+[0.796s] -- Detecting CXX compiler ABI info
+[1.180s] -- Detecting CXX compiler ABI info - done
+[1.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.237s] -- Detecting CXX compile features
+[1.243s] -- Detecting CXX compile features - done
+[1.257s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.943s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.688s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[5.601s] -- Configuring done
+[5.604s] -- Generating done
+[5.606s] -- Build files have been written to: /home/hima/bachelors/rbkairos_ws/build/robotnik_description
+[5.611s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_description' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/robotnik_description -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/robotnik_description
+[5.613s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_description': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_description -- -j16 -l16
+[5.661s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_description' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_description -- -j16 -l16
+[5.662s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_description': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_description
+[5.673s] -- Install configuration: ""
+[5.673s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/launch
+[5.674s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/launch/robot_description.launch.py
+[5.674s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes
+[5.674s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels
+[5.674s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/steering_wheel
+[5.674s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/steering_wheel/mw_frame_stl_color.dae
+[5.675s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/steering_wheel/mw_frame_stl.png
+[5.676s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/rubber_wheel
+[5.676s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/rubber_wheel/mw_frame.stl
+[5.676s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/rubber_wheel/wheel_sxl.stl
+[5.677s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/rubber_wheel/rubber_wheel.dae
+[5.679s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/mecanum_wheel
+[5.679s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/mecanum_wheel/kairos_mecanum_wheel_2.dae
+[5.680s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/mecanum_wheel/robout_wheel.stl
+[5.708s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/mecanum_wheel/kairos_mecanum_wheel_1.dae
+[5.709s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/caster_wheel
+[5.709s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/wheels/caster_wheel/caster_wheel.stl
+[5.712s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases
+[5.712s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/robotnik_logo_chasis.stl
+[5.712s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbrobout
+[5.712s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbrobout/rbrobout_top_cover.stl
+[5.715s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbrobout/rbrobout_chassis.stl
+[5.716s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbtheron
+[5.716s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbtheron/rbtheron_plus_top_chassis.stl
+[5.721s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbtheron/theron_base_v4.stl
+[5.726s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbkairos
+[5.726s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbkairos/rbkairos_chassis.stl
+[5.727s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbkairos/rbkairos_plus_chassis.stl
+[5.740s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbkairos/rbkairos_top_cover.stl
+[5.741s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbkairos/rbkairos_chapas_inox_tapas.STL
+[5.741s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui
+[5.741s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_leds.stl
+[5.741s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_logos.stl
+[5.742s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_contactors.stl
+[5.742s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_chassis.stl
+[5.743s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_battery.stl
+[5.743s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_logos.dae
+[5.744s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_chassis_color.dae
+[5.744s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbvogui/rbvogui_chassis_color.png
+[5.744s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbsummit
+[5.744s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbsummit/rbsummit_xl_chassis_simple.stl
+[5.745s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbsummit/rbsummit_xl_chassis.dae
+[5.747s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/bases/rbsummit/rbsummit_xl_chassis_collision.dae
+[5.748s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/structures
+[5.748s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix
+[5.748s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_base_900mm.stl
+[5.749s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_top_900mm.stl
+[5.750s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_top_900mm_cut.stl
+[5.750s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_base_700mm.stl
+[5.752s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_top_700mm_cut.stl
+[5.752s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/meshes/structures/ewellix/ewellix_lift_top_700mm.stl
+[5.753s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf
+[5.753s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/inertia.urdf.xacro
+[5.753s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels
+[5.753s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/steering_wheel
+[5.753s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/steering_wheel/steering_wheel.urdf.xacro
+[5.754s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel
+[5.754s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/rubber_wheel_150.urdf.xacro
+[5.754s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/rubber_wheel.urdf.xacro
+[5.754s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/gazebo
+[5.754s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/gazebo/rubber_wheel.gazebo.xacro
+[5.755s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/gazebo/rbvogui_wheel.gazebo.xacro
+[5.755s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/rubber_wheel/gazebo/rubber_wheel.transmission.xacro
+[5.755s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/mecanum_wheel
+[5.755s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/mecanum_wheel/rbkairos_mecanum_wheel.urdf.xacro
+[5.755s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/mecanum_wheel/rbrobout_mecanum_wheel.urdf.xacro
+[5.755s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/wheel.gazebo.xacro
+[5.756s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/caster_wheel
+[5.756s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/wheels/caster_wheel/rbtheron_caster.urdf.xacro
+[5.756s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases
+[5.756s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbrobout
+[5.757s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbrobout/rbrobout_cameras_cover.urdf.xacro
+[5.757s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbrobout/rbrobout_top_cover.urdf.xacro
+[5.757s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbrobout/rbrobout_base.urdf.xacro
+[5.757s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbtheron
+[5.757s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbtheron/rbtheron_base.xacro
+[5.757s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbkairos
+[5.758s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbkairos/rbkairos_base.urdf.xacro
+[5.758s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbvogui
+[5.758s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbvogui/rbvogui_base.urdf.xacro
+[5.758s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbsummit
+[5.758s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bases/rbsummit/rbsummit_base.xacro
+[5.758s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/base_hw
+[5.758s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/base_hw/rbrobout.ros2_control.urdf
+[5.759s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/base_hw/rbvogui.ros2_control.urdf
+[5.759s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/base_hw/rbtheron.ros2_control.urdf
+[5.759s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/base_hw/rbsummit.ros2_control.urdf
+[5.759s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/base_hw/rbkairos.ros2_control.urdf
+[5.759s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies
+[5.759s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbrobout
+[5.759s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbrobout/rbrobout_body.urdf.xacro
+[5.760s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbtheron
+[5.760s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbtheron/rbtheron_body.urdf.xacro
+[5.760s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbkairos
+[5.760s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbkairos/rbkairos_plus_body.urdf.xacro
+[5.760s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbkairos/rbkairos_body.urdf.xacro
+[5.760s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbvogui
+[5.760s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbvogui/rbvogui_body.urdf.xacro
+[5.761s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbvogui/rbvogui_base.gazebo.xacro
+[5.761s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbsummit
+[5.761s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/bodies/rbsummit/rbsummit_body.urdf.xacro
+[5.761s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/structures
+[5.761s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/structures/ewellix
+[5.761s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/structures/ewellix/ewellix_lift_700mm.urdf.xacro
+[5.761s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/structures/ewellix/ewellix_lift_900mm.urdf.xacro
+[5.762s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/urdf/structures/ewellix/all_ewellix_lift.urdf.xacro
+[5.762s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots
+[5.762s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbrobout
+[5.762s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbrobout/rbrobout_plus.urdf.xacro
+[5.762s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbrobout/rbrobout.urdf.xacro
+[5.762s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbtheron
+[5.762s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbtheron/rbtheron.urdf.xacro
+[5.763s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbtheron/rbtheron_plus.urdf.xacro
+[5.763s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbkairos
+[5.763s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbkairos/rbkairos.urdf.xacro
+[5.763s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbkairos/rbkairos_plus.urdf.xacro
+[5.763s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbvogui
+[5.764s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbvogui/rbvogui.urdf.xacro
+[5.764s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbvogui/rbvogui_plus.urdf.xacro
+[5.764s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbsummit
+[5.764s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/robots/rbsummit/rbsummit.urdf.xacro
+[5.764s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators
+[5.764s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/isaac
+[5.765s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/isaac/README.md
+[5.765s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic
+[5.765s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbrobout
+[5.765s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbrobout/rbrobout_controller_params.yaml
+[5.765s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbrobout/rbrobout_control.urdf.xacro
+[5.765s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbtheron
+[5.765s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbtheron/rbtheron_control.urdf.xacro
+[5.766s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbtheron/rbtheron_controller_params.yaml
+[5.766s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbkairos
+[5.766s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbkairos/rbkairos_controller_params.yaml
+[5.766s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbkairos/rbkairos_control.urdf.xacro
+[5.766s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/README.md
+[5.766s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbvogui
+[5.766s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbvogui/rbvogui_controller_params.yaml
+[5.767s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbvogui/rbvogui_control.urdf.xacro
+[5.767s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbsummit
+[5.767s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbsummit/rbsummit_control.urdf.xacro
+[5.767s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_classic/rbsummit/rbsummit_controller_params.yaml
+[5.767s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition
+[5.767s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbrobout
+[5.768s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbrobout/rbrobout_controller_params.yaml
+[5.768s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbrobout/rbrobout_control.urdf.xacro
+[5.768s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbtheron
+[5.768s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbtheron/rbtheron_control.urdf.xacro
+[5.768s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbtheron/rbtheron_controller_params.yaml
+[5.768s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbkairos
+[5.768s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbkairos/rbkairos_controller_params.yaml
+[5.769s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbkairos/rbkairos_control.urdf.xacro
+[5.769s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/README.md
+[5.769s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbvogui
+[5.769s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbvogui/rbvogui_controller_params.yaml
+[5.769s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbvogui/rbvogui_control.urdf.xacro
+[5.769s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbsummit
+[5.769s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbsummit/rbsummit_control.urdf.xacro
+[5.770s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/simulators/gazebo_ignition/rbsummit/rbsummit_controller_params.yaml
+[5.770s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/ament_index/resource_index/package_run_dependencies/robotnik_description
+[5.770s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/ament_index/resource_index/parent_prefix_path/robotnik_description
+[5.770s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/environment/ament_prefix_path.sh
+[5.770s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/environment/ament_prefix_path.dsv
+[5.771s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/environment/path.sh
+[5.771s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/environment/path.dsv
+[5.771s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/local_setup.bash
+[5.771s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/local_setup.sh
+[5.771s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/local_setup.zsh
+[5.771s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/local_setup.dsv
+[5.772s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/package.dsv
+[5.772s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/ament_index/resource_index/packages/robotnik_description
+[5.772s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/cmake/robotnik_descriptionConfig.cmake
+[5.772s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/cmake/robotnik_descriptionConfig-version.cmake
+[5.773s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_description/share/robotnik_description/package.xml
+[5.775s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_description' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_description

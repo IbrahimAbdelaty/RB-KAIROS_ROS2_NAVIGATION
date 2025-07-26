@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/msg/detail/response__type_support_c.cpp.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/msg/detail/response__type_support_c.cpp.o.d"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_bool__type_support_c.cpp.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_bool__type_support_c.cpp.o.d"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_float32__type_support_c.cpp.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_float32__type_support_c.cpp.o.d"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_float64__type_support_c.cpp.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_float64__type_support_c.cpp.o.d"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_int32__type_support_c.cpp.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_int32__type_support_c.cpp.o.d"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_string__type_support_c.cpp.o"
+  "CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_string__type_support_c.cpp.o.d"
+  "librobotnik_common_msgs__rosidl_typesupport_fastrtps_c.pdb"
+  "librobotnik_common_msgs__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/msg/detail/response__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/msg/detail/response__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_bool__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_float32__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_float32__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_float64__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_float64__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_int32__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robotnik_common_msgs/srv/detail/set_string__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robotnik_common_msgs__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

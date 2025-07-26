@@ -1,0 +1,39 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/down_stack__type_support.cpp.o"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/down_stack__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_module_list__type_support.cpp.o"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_module_list__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_stack_list__type_support.cpp.o"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_stack_list__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_stack_logs__type_support.cpp.o"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_stack_logs__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_stack_status__type_support.cpp.o"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_stack_status__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/restart_stack__type_support.cpp.o"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/restart_stack__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/start_module__type_support.cpp.o"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/start_module__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/start_stack__type_support.cpp.o"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/start_stack__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/stop_module__type_support.cpp.o"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/stop_module__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/stop_stack__type_support.cpp.o"
+  "CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_supervisor_msgs/srv/stop_stack__type_support.cpp.o.d"
+  "librobotnik_supervisor_msgs__rosidl_typesupport_c.pdb"
+  "librobotnik_supervisor_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/robotnik_supervisor_msgs/srv/down_stack__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_module_list__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_stack_list__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_stack_logs__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_supervisor_msgs/srv/get_stack_status__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_supervisor_msgs/srv/restart_stack__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_supervisor_msgs/srv/start_module__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_supervisor_msgs/srv/start_stack__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_supervisor_msgs/srv/stop_module__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_supervisor_msgs/srv/stop_stack__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robotnik_supervisor_msgs__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

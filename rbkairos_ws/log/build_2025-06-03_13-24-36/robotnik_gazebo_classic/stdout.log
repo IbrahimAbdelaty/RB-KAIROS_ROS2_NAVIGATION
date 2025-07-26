@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hima/bachelors/rbkairos_ws/build/robotnik_gazebo_classic
+-- Install configuration: ""
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//launch
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//launch/spawn_demo1.launch .py
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//launch/spawn_robot.launch.py
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//launch/spawn_world.launch.py
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//worlds
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//worlds/demo.world
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//worlds/vineyard.world
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//worlds/75X53_demo_1.world
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//worlds/willow_garage.world
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//worlds/maze.world
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//worlds/robotnik_lab.world
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbrobout
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbrobout/rbrobout_controller_params.yaml
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbrobout/rviz_config.rviz
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbtheron
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbtheron/rbtheron_controller_params.yaml
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbtheron/rviz_config.rviz
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbkairos
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbkairos/rbkairos_controller_params.yaml
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbkairos/rviz_config.rviz
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbvogui
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbvogui/rbvogui_controller_params.yaml
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbvogui/rviz_config.rviz
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbsummit
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbsummit/rbsummit_controller_params.yaml
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic//config/rbsummit/rviz_config.rviz
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/ament_index/resource_index/package_run_dependencies/robotnik_gazebo_classic
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/ament_index/resource_index/parent_prefix_path/robotnik_gazebo_classic
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/environment/ament_prefix_path.sh
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/environment/ament_prefix_path.dsv
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/environment/path.sh
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/environment/path.dsv
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/local_setup.bash
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/local_setup.sh
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/local_setup.zsh
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/local_setup.dsv
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/package.dsv
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/ament_index/resource_index/packages/robotnik_gazebo_classic
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/cmake/robotnik_gazebo_classicConfig.cmake
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/cmake/robotnik_gazebo_classicConfig-version.cmake
+-- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic/share/robotnik_gazebo_classic/package.xml

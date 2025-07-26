@@ -1,0 +1,270 @@
+[0.079s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs -- -j16 -l16
+[0.167s] [  1%] Built target robotnik_common_msgs__cpp
+[0.172s] [ 12%] Built target robotnik_common_msgs__rosidl_generator_c
+[0.256s] [ 12%] Built target ament_cmake_python_copy_robotnik_common_msgs
+[0.310s] [ 23%] Built target robotnik_common_msgs__rosidl_typesupport_cpp
+[0.311s] [ 35%] Built target robotnik_common_msgs__rosidl_typesupport_introspection_cpp
+[0.311s] [ 46%] Built target robotnik_common_msgs__rosidl_typesupport_c
+[0.311s] [ 57%] Built target robotnik_common_msgs__rosidl_typesupport_introspection_c
+[0.312s] [ 69%] Built target robotnik_common_msgs__rosidl_typesupport_fastrtps_cpp
+[0.322s] [ 80%] Built target robotnik_common_msgs__rosidl_typesupport_fastrtps_c
+[0.367s] [ 80%] Built target robotnik_common_msgs
+[0.425s] [ 81%] Built target robotnik_common_msgs__py
+[0.497s] [ 91%] Built target robotnik_common_msgs__rosidl_generator_py
+[0.618s] [ 94%] Built target robotnik_common_msgs__rosidl_typesupport_introspection_c__pyext
+[0.622s] [ 97%] Built target robotnik_common_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.623s] [100%] Built target robotnik_common_msgs__rosidl_typesupport_c__pyext
+[1.200s] running egg_info
+[1.201s] writing robotnik_common_msgs.egg-info/PKG-INFO
+[1.201s] writing dependency_links to robotnik_common_msgs.egg-info/dependency_links.txt
+[1.201s] writing top-level names to robotnik_common_msgs.egg-info/top_level.txt
+[1.206s] reading manifest file 'robotnik_common_msgs.egg-info/SOURCES.txt'
+[1.207s] writing manifest file 'robotnik_common_msgs.egg-info/SOURCES.txt'
+[1.248s] [100%] Built target ament_cmake_python_build_robotnik_common_msgs_egg
+[1.298s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs -- -j16 -l16
+[1.300s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs
+[1.325s] -- Install configuration: ""
+[1.326s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/ament_index/resource_index/rosidl_interfaces/robotnik_common_msgs
+[1.326s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs
+[1.326s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv
+[1.326s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/set_float64.h
+[1.326s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail
+[1.327s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__functions.c
+[1.327s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__struct.h
+[1.327s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__struct.h
+[1.327s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__type_support.h
+[1.327s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__functions.c
+[1.327s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__functions.h
+[1.327s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__functions.h
+[1.327s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__struct.h
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__functions.c
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__functions.c
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__functions.c
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__type_support.h
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__type_support.h
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__type_support.h
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__functions.h
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__functions.h
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__type_support.h
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__functions.h
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__struct.h
+[1.328s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__struct.h
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/set_int32.h
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/set_string.h
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/set_bool.h
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/set_float32.h
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__type_support.h
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__functions.c
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__struct.h
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__functions.h
+[1.329s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.330s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/response.h
+[1.330s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/environment/library_path.sh
+[1.330s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/environment/library_path.dsv
+[1.331s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib/librobotnik_common_msgs__rosidl_generator_c.so
+[1.332s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs
+[1.332s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv
+[1.332s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail
+[1.332s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[1.332s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__rosidl_typesupport_fastrtps_c.h
+[1.332s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[1.332s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+[1.332s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__rosidl_typesupport_fastrtps_c.h
+[1.332s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg
+[1.333s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.333s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail
+[1.333s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__rosidl_typesupport_fastrtps_c.h
+[1.333s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib/librobotnik_common_msgs__rosidl_typesupport_fastrtps_c.so
+[1.334s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs
+[1.334s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv
+[1.334s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/set_float64.hpp
+[1.334s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__traits.hpp
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__builder.hpp
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__type_support.hpp
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__builder.hpp
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__struct.hpp
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__type_support.hpp
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__struct.hpp
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__traits.hpp
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__traits.hpp
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__struct.hpp
+[1.335s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__traits.hpp
+[1.336s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__builder.hpp
+[1.336s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__struct.hpp
+[1.336s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__struct.hpp
+[1.336s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__builder.hpp
+[1.336s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__type_support.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__builder.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__type_support.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__type_support.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__traits.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/set_string.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/set_int32.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/set_float32.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/set_bool.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/response.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__traits.hpp
+[1.337s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__builder.hpp
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__type_support.hpp
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__struct.hpp
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__rosidl_typesupport_fastrtps_cpp.hpp
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__rosidl_typesupport_fastrtps_cpp.hpp
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/dds_fastrtps
+[1.338s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg
+[1.339s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.339s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail
+[1.339s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/dds_fastrtps
+[1.339s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__rosidl_typesupport_fastrtps_cpp.hpp
+[1.340s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib/librobotnik_common_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.340s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs
+[1.340s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv
+[1.340s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__type_support.c
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__rosidl_typesupport_introspection_c.h
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__type_support.c
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__type_support.c
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__type_support.c
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__type_support.c
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__rosidl_typesupport_introspection_c.h
+[1.341s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg
+[1.342s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.342s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail
+[1.342s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__rosidl_typesupport_introspection_c.h
+[1.342s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__type_support.c
+[1.343s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib/librobotnik_common_msgs__rosidl_typesupport_introspection_c.so
+[1.344s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib/librobotnik_common_msgs__rosidl_typesupport_c.so
+[1.344s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs
+[1.344s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv
+[1.345s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail
+[1.345s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+[1.345s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[1.345s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__rosidl_typesupport_introspection_cpp.hpp
+[1.346s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__rosidl_typesupport_introspection_cpp.hpp
+[1.346s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_bool__type_support.cpp
+[1.347s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__type_support.cpp
+[1.347s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float64__type_support.cpp
+[1.348s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[1.348s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_string__type_support.cpp
+[1.348s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/srv/detail/set_float32__type_support.cpp
+[1.349s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg
+[1.349s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail
+[1.349s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__type_support.cpp
+[1.349s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/include/robotnik_common_msgs/robotnik_common_msgs/msg/detail/response__rosidl_typesupport_introspection_cpp.hpp
+[1.349s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib/librobotnik_common_msgs__rosidl_typesupport_introspection_cpp.so
+[1.349s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib/librobotnik_common_msgs__rosidl_typesupport_cpp.so
+[1.350s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/environment/pythonpath.sh
+[1.350s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/environment/pythonpath.dsv
+[1.351s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs-1.0.0-py3.10.egg-info
+[1.351s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[1.352s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[1.352s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.352s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.353s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs
+[1.353s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/robotnik_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.354s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/robotnik_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.354s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/robotnik_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.354s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/_robotnik_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.354s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/_robotnik_common_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.354s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv
+[1.355s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/_set_string.py
+[1.355s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/_set_float32_s.c
+[1.356s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/_set_string_s.c
+[1.356s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/_set_int32_s.c
+[1.356s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/_set_float64_s.c
+[1.357s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/_set_bool_s.c
+[1.357s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/__init__.py
+[1.357s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/_set_float32.py
+[1.358s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/_set_float64.py
+[1.358s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/_set_int32.py
+[1.358s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv/_set_bool.py
+[1.359s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/msg
+[1.359s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/msg/_response_s.c
+[1.359s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/msg/_response.py
+[1.360s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/msg/__init__.py
+[1.360s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/_robotnik_common_msgs_s.ep.rosidl_typesupport_c.c
+[1.360s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/__init__.py
+[1.361s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/librobotnik_common_msgs__rosidl_generator_py.so
+[1.415s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs'...
+[1.415s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/msg'...
+[1.416s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/srv'...
+[1.422s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/robotnik_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.423s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/robotnik_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.423s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/local/lib/python3.10/dist-packages/robotnik_common_msgs/robotnik_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.424s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib/librobotnik_common_msgs__rosidl_generator_py.so
+[1.424s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/msg/Response.idl
+[1.424s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetBool.idl
+[1.424s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetFloat32.idl
+[1.424s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetFloat64.idl
+[1.424s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetInt32.idl
+[1.424s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetString.idl
+[1.424s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/msg/Response.msg
+[1.425s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetBool.srv
+[1.426s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetBool_Request.msg
+[1.426s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetBool_Response.msg
+[1.426s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetFloat32.srv
+[1.426s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetFloat32_Request.msg
+[1.426s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetFloat32_Response.msg
+[1.426s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetFloat64.srv
+[1.426s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetFloat64_Request.msg
+[1.426s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetFloat64_Response.msg
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetInt32.srv
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetInt32_Request.msg
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetInt32_Response.msg
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetString.srv
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetString_Request.msg
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/srv/SetString_Response.msg
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/ament_index/resource_index/package_run_dependencies/robotnik_common_msgs
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/ament_index/resource_index/parent_prefix_path/robotnik_common_msgs
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/environment/ament_prefix_path.sh
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/environment/ament_prefix_path.dsv
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/environment/path.sh
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/environment/path.dsv
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/local_setup.bash
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/local_setup.sh
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/local_setup.zsh
+[1.427s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/local_setup.dsv
+[1.427s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/package.dsv
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/ament_index/resource_index/packages/robotnik_common_msgs
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/export_robotnik_common_msgs__rosidl_generator_cExport.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/export_robotnik_common_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/export_robotnik_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/export_robotnik_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/export_robotnik_common_msgs__rosidl_generator_cppExport.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/export_robotnik_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/export_robotnik_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/robotnik_common_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/robotnik_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/robotnik_common_msgs__rosidl_typesupport_cExport.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/robotnik_common_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/robotnik_common_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/robotnik_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/robotnik_common_msgs__rosidl_typesupport_cppExport.cmake
+[1.428s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/robotnik_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.429s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/export_robotnik_common_msgs__rosidl_generator_pyExport.cmake
+[1.429s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/export_robotnik_common_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.429s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/rosidl_cmake-extras.cmake
+[1.429s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.430s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.431s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.431s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.431s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.432s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.432s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/robotnik_common_msgsConfig.cmake
+[1.432s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake/robotnik_common_msgsConfig-version.cmake
+[1.432s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/package.xml
+[1.433s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs

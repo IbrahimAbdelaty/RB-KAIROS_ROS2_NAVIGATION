@@ -1,0 +1,9 @@
+/home/hima/bachelors/rbkairos_ws/build/robotnik_gazebo_ignition/CMakeFiles/uninstall.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_gazebo_ignition/CMakeFiles/robotnik_gazebo_ignition_uninstall.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_gazebo_ignition/CMakeFiles/test.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_gazebo_ignition/CMakeFiles/edit_cache.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_gazebo_ignition/CMakeFiles/rebuild_cache.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_gazebo_ignition/CMakeFiles/list_install_components.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_gazebo_ignition/CMakeFiles/install.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_gazebo_ignition/CMakeFiles/install/local.dir
+/home/hima/bachelors/rbkairos_ws/build/robotnik_gazebo_ignition/CMakeFiles/install/strip.dir

@@ -1,0 +1,273 @@
+[0.024s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_navigation_msgs -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.213s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.316s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.424s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.424s] -- Detecting CXX compile features
+[0.425s] -- Detecting CXX compile features - done
+[0.428s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.663s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.799s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.856s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.865s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.874s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.887s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.904s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.922s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.934s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.960s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.988s] -- Found robotnik_common_msgs: 1.0.0 (/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/share/robotnik_common_msgs/cmake)
+[1.397s] -- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.402s] -- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.407s] -- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.412s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.912s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.228s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.233s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.287s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.288s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.288s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.288s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.333s] -- Found PythonExtra: .so  
+[2.499s] -- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.505s] -- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.511s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.540s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.542s] -- Added test 'lint_cmake' to check CMake code style
+[2.543s] -- Added test 'xmllint' to check XML markup files
+[2.548s] -- Configuring done
+[2.619s] -- Generating done
+[2.640s] -- Build files have been written to: /home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs
+[2.653s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_navigation_msgs -DCMAKE_INSTALL_PREFIX=/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs
+[2.655s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs -- -j16 -l16
+[2.705s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.711s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.723s] [  5%] Built target ament_cmake_python_copy_robotnik_navigation_msgs
+[3.078s] running egg_info
+[3.078s] creating robotnik_navigation_msgs.egg-info
+[3.078s] writing robotnik_navigation_msgs.egg-info/PKG-INFO
+[3.078s] writing dependency_links to robotnik_navigation_msgs.egg-info/dependency_links.txt
+[3.079s] writing top-level names to robotnik_navigation_msgs.egg-info/top_level.txt
+[3.079s] writing manifest file 'robotnik_navigation_msgs.egg-info/SOURCES.txt'
+[3.083s] reading manifest file 'robotnik_navigation_msgs.egg-info/SOURCES.txt'
+[3.084s] writing manifest file 'robotnik_navigation_msgs.egg-info/SOURCES.txt'
+[3.152s] [  5%] Built target ament_cmake_python_build_robotnik_navigation_msgs_egg
+[4.235s] [  5%] Built target robotnik_navigation_msgs__cpp
+[4.281s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.284s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.287s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.877s] [ 15%] [32mBuilding C object CMakeFiles/robotnik_navigation_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_navigation_msgs/action/detail/dock__functions.c.o[0m
+[4.901s] [ 17%] [32mBuilding C object CMakeFiles/robotnik_navigation_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotnik_navigation_msgs/action/detail/move__functions.c.o[0m
+[5.425s] [ 20%] [32m[1mLinking C shared library librobotnik_navigation_msgs__rosidl_generator_c.so[0m
+[5.503s] [ 20%] Built target robotnik_navigation_msgs__rosidl_generator_c
+[5.557s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.571s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.571s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.189s] [ 30%] [32mBuilding CXX object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_navigation_msgs/action/detail/dock__type_support.cpp.o[0m
+[6.200s] [ 33%] [32mBuilding CXX object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotnik_navigation_msgs/action/detail/move__type_support.cpp.o[0m
+[6.647s] [ 35%] [32mBuilding CXX object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_navigation_msgs/action/dock__type_support.cpp.o[0m
+[6.672s] [ 38%] [32mBuilding CXX object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotnik_navigation_msgs/action/move__type_support.cpp.o[0m
+[8.613s] [ 41%] [32mBuilding CXX object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_navigation_msgs/action/dock__type_support.cpp.o[0m
+[8.623s] [ 43%] [32mBuilding CXX object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_navigation_msgs/action/move__type_support.cpp.o[0m
+[8.812s] [ 46%] [32mBuilding CXX object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_navigation_msgs/action/detail/dock__type_support_c.cpp.o[0m
+[8.841s] [ 48%] [32mBuilding CXX object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotnik_navigation_msgs/action/detail/move__type_support_c.cpp.o[0m
+[8.975s] [ 51%] [32mBuilding C object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_navigation_msgs/action/detail/dock__type_support.c.o[0m
+[8.985s] [ 53%] [32mBuilding C object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_navigation_msgs/action/detail/move__type_support.c.o[0m
+[9.464s] [ 56%] [32m[1mLinking CXX shared library librobotnik_navigation_msgs__rosidl_typesupport_c.so[0m
+[9.675s] [ 56%] Built target robotnik_navigation_msgs__rosidl_typesupport_c
+[9.726s] [ 58%] [32m[1mLinking CXX shared library librobotnik_navigation_msgs__rosidl_typesupport_cpp.so[0m
+[9.989s] [ 61%] [32m[1mLinking C shared library librobotnik_navigation_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.231s] [ 64%] [32m[1mLinking CXX shared library librobotnik_navigation_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.308s] [ 64%] Built target robotnik_navigation_msgs__rosidl_typesupport_cpp
+[10.366s] [ 64%] Built target robotnik_navigation_msgs__rosidl_typesupport_introspection_c
+[10.823s] [ 64%] Built target robotnik_navigation_msgs__rosidl_typesupport_introspection_cpp
+[10.887s] [ 66%] [32m[1mLinking CXX shared library librobotnik_navigation_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.155s] [ 69%] [32mBuilding CXX object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_navigation_msgs/action/detail/dds_fastrtps/dock__type_support.cpp.o[0m
+[11.178s] [ 71%] [32mBuilding CXX object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotnik_navigation_msgs/action/detail/dds_fastrtps/move__type_support.cpp.o[0m
+[11.460s] [ 71%] Built target robotnik_navigation_msgs__rosidl_typesupport_fastrtps_c
+[15.799s] [ 74%] [32m[1mLinking CXX shared library librobotnik_navigation_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.016s] [ 74%] Built target robotnik_navigation_msgs__rosidl_typesupport_fastrtps_cpp
+[16.147s] [ 74%] Built target robotnik_navigation_msgs
+[16.289s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.405s] [ 76%] Built target robotnik_navigation_msgs__py
+[18.500s] [ 79%] [32mBuilding C object CMakeFiles/robotnik_navigation_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_navigation_msgs/action/_move_s.c.o[0m
+[18.557s] [ 82%] [32mBuilding C object CMakeFiles/robotnik_navigation_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotnik_navigation_msgs/action/_dock_s.c.o[0m
+[18.775s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_navigation_msgs/librobotnik_navigation_msgs__rosidl_generator_py.so[0m
+[18.858s] [ 84%] Built target robotnik_navigation_msgs__rosidl_generator_py
+[18.906s] [ 87%] [32mBuilding C object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robotnik_navigation_msgs/_robotnik_navigation_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[18.913s] [ 89%] [32mBuilding C object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robotnik_navigation_msgs/_robotnik_navigation_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.969s] [ 92%] [32mBuilding C object CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robotnik_navigation_msgs/_robotnik_navigation_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.144s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.174s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.236s] [ 97%] Built target robotnik_navigation_msgs__rosidl_typesupport_c__pyext
+[19.263s] [ 97%] Built target robotnik_navigation_msgs__rosidl_typesupport_introspection_c__pyext
+[19.384s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.494s] [100%] Built target robotnik_navigation_msgs__rosidl_typesupport_fastrtps_c__pyext
+[19.527s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs -- -j16 -l16
+[19.531s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs
+[19.538s] -- Install configuration: ""
+[19.539s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/ament_index/resource_index/rosidl_interfaces/robotnik_navigation_msgs
+[19.539s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs
+[19.540s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action
+[19.541s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/move.h
+[19.542s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/dock.h
+[19.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail
+[19.543s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__type_support.h
+[19.544s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__functions.c
+[19.544s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__functions.h
+[19.545s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__struct.h
+[19.547s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__functions.h
+[19.548s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__functions.c
+[19.549s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__type_support.h
+[19.549s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__struct.h
+[19.549s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/msg
+[19.550s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.550s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/environment/library_path.sh
+[19.551s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/environment/library_path.dsv
+[19.551s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_generator_c.so
+[19.552s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_generator_c.so" to ""
+[19.552s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs
+[19.553s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action
+[19.553s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail
+[19.554s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__rosidl_typesupport_fastrtps_c.h
+[19.554s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__rosidl_typesupport_fastrtps_c.h
+[19.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/msg
+[19.554s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.554s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_fastrtps_c.so
+[19.554s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs
+[19.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action
+[19.554s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/move.hpp
+[19.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail
+[19.554s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__struct.hpp
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__traits.hpp
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__traits.hpp
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__builder.hpp
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__type_support.hpp
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__struct.hpp
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__builder.hpp
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__type_support.hpp
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/dock.hpp
+[19.555s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/msg
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.555s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs
+[19.555s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action
+[19.555s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__rosidl_typesupport_fastrtps_cpp.hpp
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dds_fastrtps
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+[19.555s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/msg
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.555s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.555s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.555s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs
+[19.555s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action
+[19.556s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__rosidl_typesupport_introspection_c.h
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__type_support.c
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__rosidl_typesupport_introspection_c.h
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__type_support.c
+[19.556s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/msg
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_introspection_c.so
+[19.556s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_c.so
+[19.556s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_c.so" to ""
+[19.556s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs
+[19.556s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action
+[19.556s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__rosidl_typesupport_introspection_cpp.hpp
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/dock__type_support.cpp
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__type_support.cpp
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/include/robotnik_navigation_msgs/robotnik_navigation_msgs/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_introspection_cpp.so
+[19.556s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_cpp.so
+[19.556s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_typesupport_cpp.so" to ""
+[19.556s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/environment/pythonpath.sh
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/environment/pythonpath.dsv
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs-1.0.0-py3.10.egg-info
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/_robotnik_navigation_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/_robotnik_navigation_msgs_s.ep.rosidl_typesupport_c.c
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/librobotnik_navigation_msgs__rosidl_generator_py.so
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/action
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/action/_move_s.c
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/action/_dock.py
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/action/__init__.py
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/action/_move.py
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/action/_dock_s.c
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/__init__.py
+[19.557s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/_robotnik_navigation_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.606s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs'...
+[19.606s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/__init__.py'...
+[19.606s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/action'...
+[19.606s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/action/__init__.py'...
+[19.606s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/action/_dock.py'...
+[19.606s] Compiling '/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/action/_move.py'...
+[19.612s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.612s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.613s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.613s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.613s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.613s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/local/lib/python3.10/dist-packages/robotnik_navigation_msgs/robotnik_navigation_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.613s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_generator_py.so
+[19.614s] -- Set runtime path of "/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib/librobotnik_navigation_msgs__rosidl_generator_py.so" to ""
+[19.614s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/action/Dock.idl
+[19.614s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/action/Move.idl
+[19.614s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/action/Dock.action
+[19.614s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/action/Move.action
+[19.614s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/ament_index/resource_index/package_run_dependencies/robotnik_navigation_msgs
+[19.615s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/ament_index/resource_index/parent_prefix_path/robotnik_navigation_msgs
+[19.615s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/environment/ament_prefix_path.sh
+[19.615s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/environment/ament_prefix_path.dsv
+[19.615s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/environment/path.sh
+[19.615s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/environment/path.dsv
+[19.615s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/local_setup.bash
+[19.615s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/local_setup.sh
+[19.615s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/local_setup.zsh
+[19.616s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/local_setup.dsv
+[19.616s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/package.dsv
+[19.616s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/ament_index/resource_index/packages/robotnik_navigation_msgs
+[19.616s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/export_robotnik_navigation_msgs__rosidl_generator_cExport.cmake
+[19.616s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/export_robotnik_navigation_msgs__rosidl_generator_cExport-noconfig.cmake
+[19.616s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/export_robotnik_navigation_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[19.616s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/export_robotnik_navigation_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.616s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/export_robotnik_navigation_msgs__rosidl_generator_cppExport.cmake
+[19.616s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/export_robotnik_navigation_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/export_robotnik_navigation_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/robotnik_navigation_msgs__rosidl_typesupport_introspection_cExport.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/robotnik_navigation_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/robotnik_navigation_msgs__rosidl_typesupport_cExport.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/robotnik_navigation_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/robotnik_navigation_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/robotnik_navigation_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/robotnik_navigation_msgs__rosidl_typesupport_cppExport.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/robotnik_navigation_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/export_robotnik_navigation_msgs__rosidl_generator_pyExport.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/export_robotnik_navigation_msgs__rosidl_generator_pyExport-noconfig.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/rosidl_cmake-extras.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.617s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.618s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[19.618s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[19.618s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.618s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.618s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/robotnik_navigation_msgsConfig.cmake
+[19.618s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/cmake/robotnik_navigation_msgsConfig-version.cmake
+[19.618s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/share/robotnik_navigation_msgs/package.xml
+[19.626s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs' returned '0': CMAKE_PREFIX_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_merger:/home/hima/bachelors/rbkairos_ws/install/ros2_laser_scan_matcher:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_ignition:/home/hima/bachelors/rbkairos_ws/install/robotnik_gazebo_classic:/home/hima/bachelors/rbkairos_ws/install/mapping:/home/hima/bachelors/rbkairos_ws/install/robotnik_description:/home/hima/bachelors/rbkairos_ws/install/robotnik_sensors:/home/hima/bachelors/rbkairos_ws/install/robotnik_interfaces:/home/hima/bachelors/rbkairos_ws/install/robotnik_safety_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs:/home/hima/bachelors/rbkairos_ws/install/robotnik_common:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs:/home/hima/bachelors/rbkairos_ws/install/csm:/opt/ros/humble LD_LIBRARY_PATH=/home/hima/bachelors/rbkairos_ws/install/robotnik_common_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_supervisor_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_navigation_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_io_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_controllers_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/robotnik_battery_msgs/lib:/home/hima/bachelors/rbkairos_ws/install/csm/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_navigation_msgs

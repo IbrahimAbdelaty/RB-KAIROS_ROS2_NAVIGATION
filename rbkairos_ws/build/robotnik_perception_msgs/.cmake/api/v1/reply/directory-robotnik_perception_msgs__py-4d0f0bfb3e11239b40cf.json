@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robotnik_perception_msgs__py",
+		"source" : "/home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs/robotnik_perception_msgs__py"
+	}
+}

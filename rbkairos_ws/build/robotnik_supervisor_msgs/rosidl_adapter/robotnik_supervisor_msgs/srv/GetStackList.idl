@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robotnik_supervisor_msgs/srv/GetStackList.srv
+// generated code does not contain a copyright notice
+
+#include "robotnik_common_msgs/msg/Response.idl"
+
+module robotnik_supervisor_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request is empty")
+    struct GetStackList_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetStackList_Response {
+      robotnik_common_msgs::msg::Response response;
+
+      sequence<string> stacks;
+    };
+  };
+};

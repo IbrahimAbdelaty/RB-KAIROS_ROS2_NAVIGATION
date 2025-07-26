@@ -1,0 +1,14 @@
+setup.py
+robotnik_common_msgs/__init__.py
+robotnik_common_msgs.egg-info/PKG-INFO
+robotnik_common_msgs.egg-info/SOURCES.txt
+robotnik_common_msgs.egg-info/dependency_links.txt
+robotnik_common_msgs.egg-info/top_level.txt
+robotnik_common_msgs/msg/__init__.py
+robotnik_common_msgs/msg/_response.py
+robotnik_common_msgs/srv/__init__.py
+robotnik_common_msgs/srv/_set_bool.py
+robotnik_common_msgs/srv/_set_float32.py
+robotnik_common_msgs/srv/_set_float64.py
+robotnik_common_msgs/srv/_set_int32.py
+robotnik_common_msgs/srv/_set_string.py

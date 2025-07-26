@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robotnik_controllers_msgs/srv/SetOdometry.srv
+// generated code does not contain a copyright notice
+
+#include "robotnik_common_msgs/msg/Response.idl"
+
+module robotnik_controllers_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "New robot X position (m)")
+    struct SetOdometry_Request {
+      float x;
+
+      @verbatim (language="comment", text=
+        "New robot Y position (m)")
+      float y;
+
+      @verbatim (language="comment", text=
+        "New robot Orientation (rads)")
+      float yaw;
+    };
+    struct SetOdometry_Response {
+      robotnik_common_msgs::msg::Response response;
+    };
+  };
+};

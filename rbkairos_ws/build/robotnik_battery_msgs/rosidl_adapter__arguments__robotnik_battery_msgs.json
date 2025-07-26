@@ -1,0 +1,11 @@
+{
+  "package_name": "robotnik_battery_msgs",
+  "non_idl_tuples": [
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_battery_msgs:msg/BatteryStatus.msg",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_battery_msgs:msg/BatteryStatusStamped.msg",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_battery_msgs:msg/DockingStationStatus.msg",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_battery_msgs:msg/DockingStationStatusStamped.msg",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_battery_msgs:msg/InverterStatus.msg",
+    "/home/hima/bachelors/rbkairos_ws/src/robotnik_interfaces/robotnik_battery_msgs:msg/InverterStatusStamped.msg"
+  ]
+}

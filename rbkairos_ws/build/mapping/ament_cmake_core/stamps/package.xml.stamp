@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>mapping</name>
+  <version>1.1.0</version>
+  
+  <description>Cartographer SLAM setup</description>
+
+  <maintainer email="iabdelatyeng@gmail.com">Ibrahim Abdelaty</maintainer>
+  <license>BSD</license>
+
+
+  <build_depend>ament_cmake_python</build_depend>
+
+  <depend>rclcpp</depend>
+  <depend>cartographer_ros</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rviz2</depend>
+  <depend>xacro</depend>
+  <depend>geometry_msgs</depend>
+  
+
+  
+  <depend>robotnik_description</depend>
+  
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  
+
+  
+   <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+
+</package>

@@ -1,0 +1,35 @@
+{
+  "package_name": "robotnik_common_msgs",
+  "output_dir": "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_typesupport_introspection_cpp/robotnik_common_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:msg/Response.idl",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:srv/SetBool.idl",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:srv/SetFloat32.idl",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:srv/SetFloat64.idl",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:srv/SetInt32.idl",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs:srv/SetString.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs/msg/Response.idl",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs/srv/SetBool.idl",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs/srv/SetFloat32.idl",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs/srv/SetFloat64.idl",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs/srv/SetInt32.idl",
+    "/home/hima/bachelors/rbkairos_ws/build/robotnik_common_msgs/rosidl_adapter/robotnik_common_msgs/srv/SetString.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

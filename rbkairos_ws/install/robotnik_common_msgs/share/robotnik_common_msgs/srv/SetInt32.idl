@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robotnik_common_msgs/srv/SetInt32.srv
+// generated code does not contain a copyright notice
+
+#include "robotnik_common_msgs/msg/Response.idl"
+
+module robotnik_common_msgs {
+  module srv {
+    struct SetInt32_Request {
+      int32 data;
+    };
+    struct SetInt32_Response {
+      robotnik_common_msgs::msg::Response response;
+    };
+  };
+};

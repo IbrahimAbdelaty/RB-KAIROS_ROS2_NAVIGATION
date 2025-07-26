@@ -1,0 +1,4 @@
+/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs/rosidl_adapter/robotnik_controllers_msgs:msg/ControllerState.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs/rosidl_adapter/robotnik_controllers_msgs:srv/AvailableKinematics.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs/rosidl_adapter/robotnik_controllers_msgs:srv/ChangeKinematics.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_controllers_msgs/rosidl_adapter/robotnik_controllers_msgs:srv/SetOdometry.idl

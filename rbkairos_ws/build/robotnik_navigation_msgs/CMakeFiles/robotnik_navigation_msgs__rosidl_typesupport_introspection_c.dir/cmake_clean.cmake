@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_navigation_msgs/action/detail/dock__type_support.c.o"
+  "CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_navigation_msgs/action/detail/dock__type_support.c.o.d"
+  "CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_navigation_msgs/action/detail/move__type_support.c.o"
+  "CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotnik_navigation_msgs/action/detail/move__type_support.c.o.d"
+  "librobotnik_navigation_msgs__rosidl_typesupport_introspection_c.pdb"
+  "librobotnik_navigation_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/robotnik_navigation_msgs/action/detail/dock__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robotnik_navigation_msgs/action/detail/dock__type_support.c"
+  "rosidl_typesupport_introspection_c/robotnik_navigation_msgs/action/detail/move__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robotnik_navigation_msgs/action/detail/move__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/robotnik_navigation_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

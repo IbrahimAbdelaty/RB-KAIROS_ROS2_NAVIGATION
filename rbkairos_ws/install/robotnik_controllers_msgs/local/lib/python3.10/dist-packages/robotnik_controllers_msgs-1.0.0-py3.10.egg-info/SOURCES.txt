@@ -1,0 +1,12 @@
+setup.py
+robotnik_controllers_msgs/__init__.py
+robotnik_controllers_msgs.egg-info/PKG-INFO
+robotnik_controllers_msgs.egg-info/SOURCES.txt
+robotnik_controllers_msgs.egg-info/dependency_links.txt
+robotnik_controllers_msgs.egg-info/top_level.txt
+robotnik_controllers_msgs/msg/__init__.py
+robotnik_controllers_msgs/msg/_controller_state.py
+robotnik_controllers_msgs/srv/__init__.py
+robotnik_controllers_msgs/srv/_available_kinematics.py
+robotnik_controllers_msgs/srv/_change_kinematics.py
+robotnik_controllers_msgs/srv/_set_odometry.py

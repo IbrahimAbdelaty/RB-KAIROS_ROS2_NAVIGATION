@@ -1,0 +1,14 @@
+ros2 launch robotnik_gazebo_ignition spawn_robot.launch.py robot:=rbkairos model:=rbkairos use_sim_time:=true x:=30 y:=25
+
+ros2 launch robotnik_gazebo_ignition spawn_world.launch.py world:=factory.sdf
+
+ros2 launch mapping cartographer.launch.py use_sim_time:=true
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r cmd_vel:=/robot/robotnik_base_controller/cmd_vel -p stamped:=true
+
+ros2 run ros2_laser_scan_matcher laser_scan_matcher_node --ros-args -p odom:=robot_odom
+
+ros2 launch mapping bringup_launch.py use_sim_time:=true map:=/home/hima/bachelors/map/demo2.yaml queue_size:=50
+
+ros2 run mapping republisher_node.py 
+

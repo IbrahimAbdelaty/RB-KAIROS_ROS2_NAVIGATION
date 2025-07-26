@@ -1,0 +1,6 @@
+/home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs/rosidl_adapter/robotnik_battery_msgs:msg/BatteryStatus.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs/rosidl_adapter/robotnik_battery_msgs:msg/BatteryStatusStamped.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs/rosidl_adapter/robotnik_battery_msgs:msg/DockingStationStatus.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs/rosidl_adapter/robotnik_battery_msgs:msg/DockingStationStatusStamped.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs/rosidl_adapter/robotnik_battery_msgs:msg/InverterStatus.idl
+/home/hima/bachelors/rbkairos_ws/build/robotnik_battery_msgs/rosidl_adapter/robotnik_battery_msgs:msg/InverterStatusStamped.idl

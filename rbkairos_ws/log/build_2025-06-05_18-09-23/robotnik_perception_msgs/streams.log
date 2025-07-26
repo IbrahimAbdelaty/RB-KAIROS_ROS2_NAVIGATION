@@ -1,0 +1,164 @@
+[0.080s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs -- -j16 -l16
+[0.239s] [  2%] Built target robotnik_perception_msgs__cpp
+[0.264s] [ 12%] Built target robotnik_perception_msgs__rosidl_generator_c
+[0.280s] [ 23%] Built target robotnik_perception_msgs__rosidl_typesupport_introspection_cpp
+[0.281s] [ 33%] Built target robotnik_perception_msgs__rosidl_typesupport_cpp
+[0.299s] [ 43%] Built target robotnik_perception_msgs__rosidl_typesupport_introspection_c
+[0.300s] [ 53%] Built target robotnik_perception_msgs__rosidl_typesupport_c
+[0.301s] [ 64%] Built target robotnik_perception_msgs__rosidl_typesupport_fastrtps_c
+[0.331s] [ 74%] Built target robotnik_perception_msgs__rosidl_typesupport_fastrtps_cpp
+[0.334s] [ 74%] Built target ament_cmake_python_copy_robotnik_perception_msgs
+[0.377s] [ 74%] Built target robotnik_perception_msgs
+[0.433s] [ 76%] Built target robotnik_perception_msgs__py
+[0.457s] [ 84%] Built target robotnik_perception_msgs__rosidl_generator_py
+[0.499s] [ 89%] Built target robotnik_perception_msgs__rosidl_typesupport_c__pyext
+[0.507s] [ 94%] Built target robotnik_perception_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.528s] [100%] Built target robotnik_perception_msgs__rosidl_typesupport_introspection_c__pyext
+[1.376s] running egg_info
+[1.377s] writing robotnik_perception_msgs.egg-info/PKG-INFO
+[1.377s] writing dependency_links to robotnik_perception_msgs.egg-info/dependency_links.txt
+[1.378s] writing top-level names to robotnik_perception_msgs.egg-info/top_level.txt
+[1.381s] reading manifest file 'robotnik_perception_msgs.egg-info/SOURCES.txt'
+[1.383s] writing manifest file 'robotnik_perception_msgs.egg-info/SOURCES.txt'
+[1.425s] [100%] Built target ament_cmake_python_build_robotnik_perception_msgs_egg
+[1.443s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs -- -j16 -l16
+[1.451s] Invoking command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs
+[1.472s] -- Install configuration: ""
+[1.472s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/ament_index/resource_index/rosidl_interfaces/robotnik_perception_msgs
+[1.478s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs
+[1.482s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg
+[1.482s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detection.h
+[1.482s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail
+[1.482s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__functions.c
+[1.482s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__struct.h
+[1.486s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__type_support.h
+[1.486s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__functions.h
+[1.486s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__functions.h
+[1.489s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__struct.h
+[1.489s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__type_support.h
+[1.490s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__functions.c
+[1.492s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detection_array.h
+[1.492s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.493s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/environment/library_path.sh
+[1.493s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/environment/library_path.dsv
+[1.497s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib/librobotnik_perception_msgs__rosidl_generator_c.so
+[1.497s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs
+[1.497s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg
+[1.497s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.497s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail
+[1.497s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[1.497s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[1.498s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib/librobotnik_perception_msgs__rosidl_typesupport_fastrtps_c.so
+[1.498s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs
+[1.498s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg
+[1.498s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detection.hpp
+[1.498s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.498s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__builder.hpp
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__builder.hpp
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__struct.hpp
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__type_support.hpp
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__type_support.hpp
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__traits.hpp
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__traits.hpp
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__struct.hpp
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detection_array.hpp
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg
+[1.499s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.500s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail
+[1.500s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[1.500s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.500s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/dds_fastrtps
+[1.500s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib/librobotnik_perception_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.500s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs
+[1.500s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg
+[1.500s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.501s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail
+[1.501s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__type_support.c
+[1.501s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[1.501s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[1.501s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__type_support.c
+[1.501s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib/librobotnik_perception_msgs__rosidl_typesupport_introspection_c.so
+[1.501s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib/librobotnik_perception_msgs__rosidl_typesupport_c.so
+[1.501s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs
+[1.502s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg
+[1.502s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail
+[1.502s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__type_support.cpp
+[1.502s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[1.502s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[1.502s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/include/robotnik_perception_msgs/robotnik_perception_msgs/msg/detail/detection__type_support.cpp
+[1.504s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib/librobotnik_perception_msgs__rosidl_typesupport_introspection_cpp.so
+[1.507s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib/librobotnik_perception_msgs__rosidl_typesupport_cpp.so
+[1.508s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/environment/pythonpath.sh
+[1.510s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/environment/pythonpath.dsv
+[1.512s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs-1.0.0-py3.10.egg-info
+[1.513s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[1.516s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[1.517s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.518s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.519s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs
+[1.520s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/robotnik_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.521s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/_robotnik_perception_msgs_s.ep.rosidl_typesupport_c.c
+[1.524s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/robotnik_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.524s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/msg
+[1.524s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/msg/_detection_s.c
+[1.526s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/msg/_detection.py
+[1.526s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/msg/__init__.py
+[1.527s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/msg/_detection_array.py
+[1.528s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/msg/_detection_array_s.c
+[1.528s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/_robotnik_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.528s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/__init__.py
+[1.528s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/robotnik_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.528s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/librobotnik_perception_msgs__rosidl_generator_py.so
+[1.528s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/_robotnik_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.539s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs'...
+[1.541s] Listing '/home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/msg'...
+[1.550s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/robotnik_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.550s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/robotnik_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.550s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/local/lib/python3.10/dist-packages/robotnik_perception_msgs/robotnik_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.550s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/lib/librobotnik_perception_msgs__rosidl_generator_py.so
+[1.551s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/msg/Detection.idl
+[1.551s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/msg/DetectionArray.idl
+[1.552s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/msg/Detection.msg
+[1.552s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/msg/DetectionArray.msg
+[1.552s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/ament_index/resource_index/package_run_dependencies/robotnik_perception_msgs
+[1.552s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/ament_index/resource_index/parent_prefix_path/robotnik_perception_msgs
+[1.552s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/environment/ament_prefix_path.sh
+[1.552s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/environment/ament_prefix_path.dsv
+[1.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/environment/path.sh
+[1.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/environment/path.dsv
+[1.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/local_setup.bash
+[1.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/local_setup.sh
+[1.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/local_setup.zsh
+[1.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/local_setup.dsv
+[1.554s] -- Installing: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/package.dsv
+[1.554s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/ament_index/resource_index/packages/robotnik_perception_msgs
+[1.556s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/export_robotnik_perception_msgs__rosidl_generator_cExport.cmake
+[1.556s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/export_robotnik_perception_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.556s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/export_robotnik_perception_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.556s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/export_robotnik_perception_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.559s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/export_robotnik_perception_msgs__rosidl_generator_cppExport.cmake
+[1.559s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/export_robotnik_perception_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.559s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/export_robotnik_perception_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.560s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/robotnik_perception_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.561s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/robotnik_perception_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.565s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/robotnik_perception_msgs__rosidl_typesupport_cExport.cmake
+[1.565s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/robotnik_perception_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.565s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/robotnik_perception_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.565s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/robotnik_perception_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.568s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/robotnik_perception_msgs__rosidl_typesupport_cppExport.cmake
+[1.568s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/robotnik_perception_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.569s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/export_robotnik_perception_msgs__rosidl_generator_pyExport.cmake
+[1.570s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/export_robotnik_perception_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.570s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/rosidl_cmake-extras.cmake
+[1.571s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.571s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.573s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.573s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.574s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.574s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.576s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/robotnik_perception_msgsConfig.cmake
+[1.577s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/cmake/robotnik_perception_msgsConfig-version.cmake
+[1.577s] -- Up-to-date: /home/hima/bachelors/rbkairos_ws/install/robotnik_perception_msgs/share/robotnik_perception_msgs/package.xml
+[1.638s] Invoked command in '/home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hima/bachelors/rbkairos_ws/build/robotnik_perception_msgs

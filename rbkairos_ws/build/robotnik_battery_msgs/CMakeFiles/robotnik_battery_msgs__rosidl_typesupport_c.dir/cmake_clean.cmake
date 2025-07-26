@@ -1,0 +1,27 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/battery_status__type_support.cpp.o"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/battery_status__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/battery_status_stamped__type_support.cpp.o"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/battery_status_stamped__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/docking_station_status__type_support.cpp.o"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/docking_station_status__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/docking_station_status_stamped__type_support.cpp.o"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/docking_station_status_stamped__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/inverter_status__type_support.cpp.o"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/inverter_status__type_support.cpp.o.d"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/inverter_status_stamped__type_support.cpp.o"
+  "CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotnik_battery_msgs/msg/inverter_status_stamped__type_support.cpp.o.d"
+  "librobotnik_battery_msgs__rosidl_typesupport_c.pdb"
+  "librobotnik_battery_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/robotnik_battery_msgs/msg/battery_status__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_battery_msgs/msg/battery_status_stamped__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_battery_msgs/msg/docking_station_status__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_battery_msgs/msg/docking_station_status_stamped__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_battery_msgs/msg/inverter_status__type_support.cpp"
+  "rosidl_typesupport_c/robotnik_battery_msgs/msg/inverter_status_stamped__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robotnik_battery_msgs__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
